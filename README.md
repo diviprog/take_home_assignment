@@ -8,7 +8,7 @@
 
 **Fork the repo and make incremental pushes. We will follow your commits.**
 
-MulhollandAI has taken on Reznar's Arcane Oddities, a fantasy magic item shop, as a client. Your job is to help Reznar organize their products so that it is easy to add new items for sale and to find patterns across the catalog.
+Mulholland Technologies has taken on Reznar's Arcane Oddities, a fantasy magic item shop, as a client. Your job is to help Reznar organize their products so that it is easy to add new items for sale and to find patterns across the catalog.
 
 ---
 
