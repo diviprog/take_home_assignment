@@ -8,6 +8,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"os/exec"
 	"path/filepath"
 
 	"github.com/anthropics/anthropic-sdk-go"
@@ -19,7 +20,7 @@ const extractionModel = anthropic.ModelClaudeOpus5
 // pagePrompt is identical for every page — the page-specific input is the
 // image itself. Keeping it constant keeps the cache key simple and the run
 // reproducible.
-const pagePrompt = `You are transcribing one page of a scanned fantasy magic-item catalog into structured JSON via the record_page tool.
+const pagePrompt = `You are transcribing one page of a scanned fantasy magic-item catalog into a structured JSON record.
 
 How the catalog is laid out: each item starts with a TITLE IN SMALL CAPS followed immediately by an italic type line like "Wondrous item, uncommon (requires attunement)" or "Weapon (any sword), very rare". Everything after that, until the next title+type-line pair, is that item's body prose. Bold or italic sub-headings inside the prose (e.g. "Immunities.", "Curse.") are NOT new items — a new item requires the title + italic type line pair.
 
@@ -96,24 +97,41 @@ type cacheEntry struct {
 }
 
 // Extractor calls the vision model once per page, caching every response on
-// disk. The cache key hashes (model, prompt, schema, image bytes), so a
-// change to any input transparently invalidates only what it affects, while
+// disk. The cache key hashes (backend model, prompt, schema, image bytes), so
+// a change to any input transparently invalidates only what it affects, while
 // re-running with nothing changed costs zero API calls. That property is what
 // makes iterating on the stitcher/tally free.
+//
+// Two backends produce identical PageExtract records:
+//
+//	"api" — the Anthropic Messages API with forced tool use (needs a funded
+//	        ANTHROPIC_API_KEY; the reproducible path a reviewer would run)
+//	"cli" — the local `claude` CLI in headless -p mode, which bills the
+//	        machine's logged-in Claude subscription instead of API credits
 type Extractor struct {
 	client   anthropic.Client
 	cacheDir string
+	backend  string
 }
 
-func NewExtractor(cacheDir string) (*Extractor, error) {
-	if os.Getenv("ANTHROPIC_API_KEY") == "" {
-		return nil, fmt.Errorf("ANTHROPIC_API_KEY is not set")
+func NewExtractor(cacheDir, backend string) (*Extractor, error) {
+	switch backend {
+	case "api":
+		if os.Getenv("ANTHROPIC_API_KEY") == "" {
+			return nil, fmt.Errorf("backend api: ANTHROPIC_API_KEY is not set")
+		}
+	case "cli":
+		if _, err := exec.LookPath("claude"); err != nil {
+			return nil, fmt.Errorf("backend cli: claude CLI not found in PATH")
+		}
+	default:
+		return nil, fmt.Errorf("unknown backend %q (want api or cli)", backend)
 	}
 	if err := os.MkdirAll(cacheDir, 0o755); err != nil {
 		return nil, err
 	}
 	client := anthropic.NewClient(option.WithMaxRetries(4))
-	return &Extractor{client: client, cacheDir: cacheDir}, nil
+	return &Extractor{client: client, cacheDir: cacheDir, backend: backend}, nil
 }
 
 // ExtractPage returns the structured transcription of one page, from cache if
@@ -124,9 +142,16 @@ func (e *Extractor) ExtractPage(ctx context.Context, pdfPage int, imagePath stri
 		return PageExtract{}, false, err
 	}
 
+	// The cli backend uses whatever model the local claude login defaults to,
+	// so its cache identity is the backend name; the model that actually ran
+	// is recorded in the cache entry for auditing.
+	modelID := string(extractionModel)
+	if e.backend == "cli" {
+		modelID = "claude-cli"
+	}
 	schemaJSON, _ := json.Marshal(recordPageTool.InputSchema.Properties)
 	h := sha256.New()
-	h.Write([]byte(extractionModel))
+	h.Write([]byte(modelID))
 	h.Write([]byte(pagePrompt))
 	h.Write(schemaJSON)
 	h.Write(img)
@@ -143,6 +168,41 @@ func (e *Extractor) ExtractPage(ctx context.Context, pdfPage int, imagePath stri
 		}
 	}
 
+	var res callResult
+	if e.backend == "cli" {
+		res, err = e.callCLI(ctx, imagePath)
+	} else {
+		res, err = e.callAPI(ctx, img)
+	}
+	if err != nil {
+		return PageExtract{}, false, fmt.Errorf("page %d: %w", pdfPage, err)
+	}
+	res.extract.PdfPage = pdfPage
+
+	entry := cacheEntry{
+		PdfPage: pdfPage, Model: res.model, InputHash: hash,
+		StopReason:  res.stopReason,
+		InputTokens: res.inputTokens, OutputTokens: res.outputTokens,
+		Extract: res.extract,
+	}
+	raw, _ := json.MarshalIndent(entry, "", "  ")
+	if err := os.WriteFile(cachePath, raw, 0o644); err != nil {
+		return PageExtract{}, false, err
+	}
+	return res.extract, false, nil
+}
+
+// callResult is one backend call's extract plus the audit metadata that goes
+// into the cache entry.
+type callResult struct {
+	extract      PageExtract
+	model        string
+	stopReason   string
+	inputTokens  int64
+	outputTokens int64
+}
+
+func (e *Extractor) callAPI(ctx context.Context, img []byte) (callResult, error) {
 	msg, err := e.client.Messages.New(ctx, anthropic.MessageNewParams{
 		Model:     extractionModel,
 		MaxTokens: 16384,
@@ -159,7 +219,7 @@ func (e *Extractor) ExtractPage(ctx context.Context, pdfPage int, imagePath stri
 		},
 	})
 	if err != nil {
-		return PageExtract{}, false, fmt.Errorf("page %d: %w", pdfPage, err)
+		return callResult{}, err
 	}
 
 	var extract PageExtract
@@ -167,7 +227,7 @@ func (e *Extractor) ExtractPage(ctx context.Context, pdfPage int, imagePath stri
 	for _, block := range msg.Content {
 		if block.Type == "tool_use" && block.Name == recordPageTool.Name {
 			if err := json.Unmarshal(block.Input, &extract); err != nil {
-				return PageExtract{}, false, fmt.Errorf("page %d: bad tool input: %w", pdfPage, err)
+				return callResult{}, fmt.Errorf("bad tool input: %w", err)
 			}
 			found = true
 		}
@@ -175,19 +235,11 @@ func (e *Extractor) ExtractPage(ctx context.Context, pdfPage int, imagePath stri
 	if !found {
 		// A refusal or truncation lands here; the caller quarantines the page
 		// rather than aborting the whole run.
-		return PageExtract{}, false, fmt.Errorf("page %d: no tool_use block (stop_reason=%s)", pdfPage, msg.StopReason)
+		return callResult{}, fmt.Errorf("no tool_use block (stop_reason=%s)", msg.StopReason)
 	}
-	extract.PdfPage = pdfPage
-
-	entry := cacheEntry{
-		PdfPage: pdfPage, Model: string(extractionModel), InputHash: hash,
-		StopReason:  string(msg.StopReason),
-		InputTokens: msg.Usage.InputTokens, OutputTokens: msg.Usage.OutputTokens,
-		Extract: extract,
-	}
-	raw, _ := json.MarshalIndent(entry, "", "  ")
-	if err := os.WriteFile(cachePath, raw, 0o644); err != nil {
-		return PageExtract{}, false, err
-	}
-	return extract, false, nil
+	return callResult{
+		extract: extract, model: string(extractionModel),
+		stopReason:  string(msg.StopReason),
+		inputTokens: msg.Usage.InputTokens, outputTokens: msg.Usage.OutputTokens,
+	}, nil
 }

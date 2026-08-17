@@ -1,0 +1,2352 @@
+[
+  {
+    "name": "Amulet of Amplified Emotion",
+    "type_line": "Wondrous item, uncommon (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "uncommon",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "While wearing this amulet",
+    "description": "While wearing this amulet, you are able to influence any creature who can meet your gaze, amplifying a specific emotion based on the color of the amulet's gemstone. A Wisdom saving throw is allowed against a DC11 to resist the effect.\nBlack - Nervous\nGray - Anxious\nViolet - Passionate\nBlue - Happy\nBlue Green - Relaxed\nGreen - Jealous\nAmber - Hatred",
+    "effect_kinds_raw": [
+      "emotion manipulation on others"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "any creature who can meet your gaze",
+      "A Wisdom saving throw is allowed against a DC11 to resist the effect"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "Variants vary over the color of the amulet's gemstone:\nBlack - Nervous\nGray - Anxious\nViolet - Passionate\nBlue - Happy\nBlue Green - Relaxed\nGreen - Jealous\nAmber - Hatred",
+    "oddities": [
+      "\"DC11\" written without a space",
+      "color-to-emotion list uses bold color names rather than a ruled table"
+    ],
+    "pdf_page_start": 1,
+    "pdf_page_end": 1
+  },
+  {
+    "name": "Amulet of Fiendish Protection",
+    "type_line": "Wondrous item, very rare (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "",
+    "description": "You are protected against the harmful effects of the innate powers of fiends. You gain advantage to saving throws against any spell cast against you by a fiend, and your AC increases by 4 when targeted by a fiend.",
+    "effect_kinds_raw": [
+      "saving throw advantage",
+      "AC bonus"
+    ],
+    "creatures_mentioned": [
+      "fiends",
+      "fiend"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "against any spell cast against you by a fiend",
+      "when targeted by a fiend"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "says \"advantage to saving throws\" rather than the usual \"advantage on saving throws\""
+    ],
+    "pdf_page_start": 1,
+    "pdf_page_end": 1
+  },
+  {
+    "name": "Amulet of Lycanthrope Protection",
+    "type_line": "Wondrous item, rare (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while wearing this amulet",
+    "description": "You are immune to the curse of lycanthropy while wearing this amulet. If bitten while wearing the amulet, the curse does not take hold. However, if you are already cursed with lycanthropy, the amulet does not cure you of the affliction - instead, you do not succumb to the curse while wearing the amulet.",
+    "effect_kinds_raw": [
+      "curse immunity",
+      "curse suppression"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "while wearing this amulet",
+      "the amulet does not cure you of the affliction"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 1,
+    "pdf_page_end": 1
+  },
+  {
+    "name": "Boots of Deception",
+    "type_line": "Wondrous item, rare (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "While wearing these boots",
+    "description": "These boots always appear distressed, as though having endured a lifetime of use, but never seem to rip or otherwise fall apart. While wearing these boots, you are able to magically silence or amplify your footsteps on any terrain. You are also able to choose whether or not your steps leave tracks on any terrain. This does not prevent you from being tracked by other means.",
+    "effect_kinds_raw": [
+      "footstep sound control",
+      "track concealment"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [
+      "any terrain"
+    ],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 2,
+    "pdf_page_end": 2
+  },
+  {
+    "name": "Boots of Stomping",
+    "type_line": "Wondrous item, uncommon",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "uncommon",
+    "attunement_raw": "",
+    "worn_or_held_raw": "While wearing these boots",
+    "description": "These metal boots are sized to fit a medium sized creature, however, they can shrink or enlarge to accommodate any sized foot. While wearing these boots, you are able to deliver a stomping blow to any creature who is at least one size category smaller than you. This is a melee attack that deals 1d10 + Strength modifier bludgeoning damage. The attack is also considered magical.",
+    "effect_kinds_raw": [
+      "self-resizing",
+      "bonus melee attack"
+    ],
+    "creatures_mentioned": [
+      "any creature who is at least one size category smaller than you"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 2,
+    "pdf_page_end": 2
+  },
+  {
+    "name": "Caltrops of Wounding",
+    "type_line": "Wondrous item, uncommon",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "uncommon",
+    "attunement_raw": "",
+    "worn_or_held_raw": "",
+    "description": "Damage dealt by these caltrops can only be healed by magical means.",
+    "effect_kinds_raw": [
+      "prevents nonmagical healing"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Body is a single sentence with no description of the caltrops themselves"
+    ],
+    "pdf_page_start": 2,
+    "pdf_page_end": 2
+  },
+  {
+    "name": "Evergreen Cloak",
+    "type_line": "Wondrous item, very rare (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "While wearing this cloak with its hood up",
+    "description": "While wearing this cloak with its hood up, Wisdom (Perception) checks made to see you have disadvantage so long as you are in a wooded environment. In addition, you are able to assume the form of a evergreen tree. While in this form, you cannot move, but you heal through photosynthesis and nutrients found in the soil. Three hours as a tree can heal you to full health, as long as there is ample sunshine and rich soil. This ability cannot be used again until 24 hours have passed since its previous use.",
+    "effect_kinds_raw": [
+      "hinders others' perception",
+      "shape change",
+      "healing"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [
+      "wooded environment"
+    ],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "This ability cannot be used again until 24 hours have passed since its previous use.",
+      "as long as there is ample sunshine and rich soil"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Odd phrasing: \"Wisdom (Perception) checks made to see you have disadvantage\" (apparent missing word, transcribed verbatim)",
+      "Grammar as printed: \"a evergreen tree\""
+    ],
+    "pdf_page_start": 3,
+    "pdf_page_end": 3
+  },
+  {
+    "name": "Gown of Disguise",
+    "type_line": "Wondrous item, uncommon",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "uncommon",
+    "attunement_raw": "",
+    "worn_or_held_raw": "While wearing this gown",
+    "description": "While wearing this gown, you can use an action to cast the disguise self spell from it at will. The spell ends if the gown is removed.",
+    "effect_kinds_raw": [
+      "spellcasting",
+      "disguise"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [
+      "disguise self"
+    ],
+    "limitations_raw": [
+      "The spell ends if the gown is removed."
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 3,
+    "pdf_page_end": 3
+  },
+  {
+    "name": "Headband of Martial Prowess",
+    "type_line": "Wondrous item, rare (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "While wearing this headband",
+    "description": "While wearing this headband, you gain proficiency in martial weapons. If you already have proficiency in martial weapons, you gain a +2 to any attack while wielding them.",
+    "effect_kinds_raw": [
+      "weapon proficiency",
+      "attack bonus"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 3,
+    "pdf_page_end": 3
+  },
+  {
+    "name": "Horn of Bronze Dragon Control",
+    "type_line": "Wondrous item, very rare",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "very rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "",
+    "description": "By using this horn, you are able to dominate the mind of any one bronze dragon within 60 feet of its activation. The dragon must be able to hear the horn to be dominated and it is allowed a Wisdom saving throw against DC16 to resist. If you or creatures that are friendly to you are fighting the target dragon, it is given advantage on the saving throw.\nOn a failed save, you can use your action to take total and precise control of the target. For the next hour, the creature only takes the actions you choose and cannot do anything that you don't allow. During this time, you can also cause the dragon to use a reaction, but this requires you to use your own reaction as well. Each time the dragon takes damage, it makes a new Wisdom saving throw against the horn's effect. If the saving throw succeeds, the effect ends. The older the dragon is, the more resistant to the horn's effects it is.\nWyrmling: +0 to the saving throw\nYoung: +1 to the saving throw\nAdult: +2 to the saving throw\nAncient: +3 to the saving throw",
+    "effect_kinds_raw": [
+      "mind domination of a creature",
+      "total control of target's actions",
+      "forced reaction use"
+    ],
+    "creatures_mentioned": [
+      "bronze dragon",
+      "Wyrmling",
+      "Young",
+      "Adult",
+      "Ancient"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "within 60 feet of its activation",
+      "For the next hour"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Embedded saving-throw-modifier table varying by dragon age category (Wyrmling/Young/Adult/Ancient), rendered as bold-label lines rather than a ruled table"
+    ],
+    "pdf_page_start": 4,
+    "pdf_page_end": 4
+  },
+  {
+    "name": "Mask of Devil Control",
+    "type_line": "Wondrous item, legendary (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "legendary",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "While wearing this mask",
+    "description": "While wearing this mask, you are able to dominate the mind of any one fiend (devil) that is within 60 feet of your position and in your line of sight. The fiend (devil) must succeed on a Wisdom saving throw against DC20 or be charmed by you for the duration. If you or creatures that are friendly to you are fighting the target fiend (devil), it has advantage on the saving throw.\nOn a failed save, you can use your action to take total and precise control of the target. For the next hour, the fiend (devil) only takes the actions you choose and cannot do anything that you don't allow. During this time, you can also cause the fiend (devil) to use a reaction, but this requires you to use your own reaction as well. Each time the fiend (devil) takes damage, it makes a new Wisdom saving throw against the mask's effect. If the saving throw succeeds, the effect ends. The more powerful the fiend (devil) is, the greater it's chance to resist the mask's effect.\nLemure: +0 to the saving throw\nLesser Devils: +2 to the saving throw\nGreater Devils: +3 to the saving throw\nArchdevils: Immune",
+    "effect_kinds_raw": [
+      "mind domination of a creature",
+      "charm on failed save",
+      "total control of target's actions",
+      "forced reaction use"
+    ],
+    "creatures_mentioned": [
+      "fiend (devil)",
+      "Lemure",
+      "Lesser Devils",
+      "Greater Devils",
+      "Archdevils"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "within 60 feet of your position and in your line of sight",
+      "For the next hour"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Source writes \"the greater it's chance\" (it's for its), kept verbatim",
+      "Embedded saving-throw-modifier table varying by devil rank (Lemure/Lesser Devils/Greater Devils/Archdevils), with Archdevils listed as Immune"
+    ],
+    "pdf_page_start": 4,
+    "pdf_page_end": 4
+  },
+  {
+    "name": "Pipe of Controlling Winds",
+    "type_line": "Wondrous item, rare",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "placing the pipe to your lips",
+    "description": "This pipe is usually crafted from a single piece of glass or blue-tinted ceramic. By placing the pipe to your lips and blowing out forcefully, you are able to create a large air elemental under your control that lasts for up to one hour. You cannot summon forth another elemental until 24 hours pass from its last activation. While you are in possession of the pipe, beings from the Elemental Plane of Air see you as friendly.",
+    "effect_kinds_raw": [
+      "summon creature",
+      "social/reaction benefit"
+    ],
+    "creatures_mentioned": [
+      "air elemental",
+      "beings from the Elemental Plane of Air"
+    ],
+    "environments_mentioned": [
+      "Elemental Plane of Air"
+    ],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "lasts for up to one hour",
+      "You cannot summon forth another elemental until 24 hours pass from its last activation"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 5,
+    "pdf_page_end": 5
+  },
+  {
+    "name": "Quatermaster's Chest",
+    "type_line": "Wondrous item, legendary",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "legendary",
+    "attunement_raw": "",
+    "worn_or_held_raw": "",
+    "description": "This chest is magically enchanted to bring forth arms and armaments meant to equip a platoon of soldiers quickly. Following the uttering its activation word and a hand placed on its closed lid, the chest will materialize two weapons (or one weapon and one shield) and a suit of armor appropriate for your class and proficiency. If it materializes a ranged weapon, it will also provide 20 rounds of appropriate ammunition. The chest can be used a total of 50 times before its magic is exhausted. A period of 240 hours must pass before it can be used again. The weapons and armor provided are always expertly crafted, but they confer no magical bonuses to their wielders. The arms and armor created by the chest last for 72 hours, at which time they disappear into harmless mist. The arms and armor conjured can be any weapon or armor that has a cost of 50 gp or less.",
+    "effect_kinds_raw": [
+      "conjure equipment",
+      "temporary items"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "The chest can be used a total of 50 times before its magic is exhausted",
+      "A period of 240 hours must pass before it can be used again",
+      "The arms and armor created by the chest last for 72 hours"
+    ],
+    "charges_text": "The chest can be used a total of 50 times before its magic is exhausted.",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Title spelled \"Quatermaster's\" rather than \"Quartermaster's\"",
+      "Odd phrasing: \"Following the uttering its activation word\""
+    ],
+    "pdf_page_start": 5,
+    "pdf_page_end": 5
+  },
+  {
+    "name": "Armor of Daylight's Embrace",
+    "type_line": "Armor (leather), rare (requires attunement)",
+    "category_raw": "Armor",
+    "subtype_raw": "leather",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "While wearing this armor",
+    "description": "While wearing this armor, you gain resistance to necrotic damage and are immune to the charm ability of vampires. Upon successfully grappling a vampire, you can activate the armor's special ability, dealing 20 radiant damage every round it is grappled with no save. Vampires receives a -2 to their ability check to escape the grapple while you are wearing this armor.",
+    "effect_kinds_raw": [
+      "damage resistance",
+      "charm immunity",
+      "radiant damage on grapple",
+      "enemy escape penalty"
+    ],
+    "creatures_mentioned": [
+      "vampires",
+      "vampire"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Grammatical error preserved: \"Vampires receives a -2\""
+    ],
+    "pdf_page_start": 6,
+    "pdf_page_end": 6
+  },
+  {
+    "name": "Armor of Increased Aptitude",
+    "type_line": "Armor (plate), very rare (requires attunement)",
+    "category_raw": "Armor",
+    "subtype_raw": "plate",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "",
+    "description": "In addition to the properties listed below, this armor grants a +2 to your armor class, as well as a +2 to all saving throws and ability checks. On your turn, by using an bonus action, you can activate one of the following abilities:\n• Increase your base speed by 30 feet for 4 rounds\n• Make one extra attack (as a reaction) every round for 4 rounds\n• Gain resistance to one damage type for 4 rounds\nOnce an ability is activated, another ability cannot be activated until you have finished a short or long rest.",
+    "effect_kinds_raw": [
+      "armor class bonus",
+      "saving throw and check bonus",
+      "speed increase",
+      "extra attack or damage resistance"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "for 4 rounds",
+      "Once an ability is activated, another ability cannot be activated until you have finished a short or long rest."
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Grammatical error preserved: \"by using an bonus action\"",
+      "Text opens with \"In addition to the properties listed below\" but the abilities are listed below, not properties"
+    ],
+    "pdf_page_start": 6,
+    "pdf_page_end": 6
+  },
+  {
+    "name": "Armor of Panicked Escape (Cursed)",
+    "type_line": "Armor (half-plate), rare (requires attunement)",
+    "category_raw": "Armor",
+    "subtype_raw": "half-plate",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while wearing the suit",
+    "description": "This armor functions as a suit of half-plate +2. However, following attunement, the curse becomes active and, when you engage in combat while wearing the suit, you must succeed in a Wisdom saving throw against a DC14. Failure results in you fleeing at your full base speed away from combat, possibly provoking an opportunity attack. A save is required anytime you use the Attack action while wearing the suit. The curse does not take effect until the suit is attuned to you. Once the armor is attuned, you cannot remove it unless a remove curse spell is cast on you first. The curse is only identifiable with the casting of a legend lore spell.",
+    "effect_kinds_raw": [
+      "armor class bonus",
+      "forced fleeing on failed save",
+      "unremovable until curse lifted"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [
+      "remove curse",
+      "legend lore"
+    ],
+    "limitations_raw": [
+      "A save is required anytime you use the Attack action while wearing the suit."
+    ],
+    "charges_text": "",
+    "cursed_text": "However, following attunement, the curse becomes active and, when you engage in combat while wearing the suit, you must succeed in a Wisdom saving throw against a DC14. Failure results in you fleeing at your full base speed away from combat, possibly provoking an opportunity attack. A save is required anytime you use the Attack action while wearing the suit. The curse does not take effect until the suit is attuned to you. Once the armor is attuned, you cannot remove it unless a remove curse spell is cast on you first. The curse is only identifiable with the casting of a legend lore spell.",
+    "variant_table_text": "",
+    "oddities": [
+      "Curse designation \"(Cursed)\" appears in the title itself rather than as a sub-heading",
+      "\"DC14\" written without a space"
+    ],
+    "pdf_page_start": 6,
+    "pdf_page_end": 6
+  },
+  {
+    "name": "Armor of Retribution",
+    "type_line": "Armor (plate), rare (requires attunement)",
+    "category_raw": "Armor",
+    "subtype_raw": "plate",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while wearing this armor",
+    "description": "Anytime you are subjected to melee damage while wearing this armor, your attacker takes an immediate 6 points of piercing damage. When you are struck with a critical strike in melee combat, you may have the armor reflect an equal amount of damage to that which you received back onto your attacker. This ability is useable once before finishing a long rest and must be declared by you after you are struck with a critical strike.",
+    "effect_kinds_raw": [
+      "retaliation damage on attackers",
+      "damage reflection on critical hits"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "useable once before finishing a long rest",
+      "must be declared by you after you are struck with a critical strike"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "uses \"critical strike\" rather than the standard \"critical hit\"",
+      "spelling \"useable\""
+    ],
+    "pdf_page_start": 7,
+    "pdf_page_end": 7
+  },
+  {
+    "name": "Eagle Eye Helm",
+    "type_line": "Wondrous item, rare",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "While wearing this helm",
+    "description": "While wearing this helm, and by using your Action, you are able to create a magical sensor that can appear anywhere above you up to a maximum of 400 feet. Through this, you can see from this vantage as if you were actually there, rotating your viewpoint 360 degrees. You perceive with your normal visual senses and cannot penetrate any solid surface, although your sight is unaffected by foliage and the like. You can summon the sensor for a total of 10 minutes before the magic winks out and cannot be used again until you finish a long rest.",
+    "effect_kinds_raw": [
+      "remote scrying sensor",
+      "aerial vision"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "for a total of 10 minutes",
+      "cannot be used again until you finish a long rest"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 7,
+    "pdf_page_end": 7
+  },
+  {
+    "name": "Exo-Armor",
+    "type_line": "Armor (plate), artifact (requires attunement)",
+    "category_raw": "Armor",
+    "subtype_raw": "plate",
+    "rarity_raw": "artifact",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "",
+    "description": "Ages past, on the world of Shin'ar, during one of that planet's most turbulent times known as a Lunar Quickening, a human found himself stranded in a place where the fantastic seemed ordinary and magic was a more common occurrence than miracle. The man did not know how he came to the world, only that an experiment of his own, on his planet, went somehow awry. A stranger in a foreign land, he was forced to adapt to his new surroundings - thanks to his quick wit and superior intellect, he did just that and soon managed to gain employment in a village nearby.\n\nThe people, who were also human, called themselves Jute and happened to resemble a mix of peoples from his own planet, known not only as great marauders and pillagers, but also as intuitive farmers and learned men. They spoke a version of a few languages he recognized, and this allowed him to blend in as the village's new blacksmith.\nWeeks stretched to months, then years, but the man who went by the name of \"Tony\" never gave up hope of returning to his world. He even learned to harness an extraordinary radiation found in the planet's atmosphere to fuel powerful machinery of his own design. Tony was well-liked by the Jute he lived with and had been accepted as one of their own.\nHe grew to love his adopted people, using his knowledge to protect them from monsters and evil-doers who would see them harm. Tony lived a long life and sired many children before his eventual passing of extreme old age. Many of his mechanical wonders were lost to time, however, his greatest achievement has endured.\nThe suit of plate mail armor was constructed specifically for Tony's height and build, however, it will fit anyone of Medium size. While he wore it defending the village, he was known as Verr Jarn, or 'Man of Iron'. This armor grants extraordinary abilities to anyone who dons it and manages to attune it, including +3 to your AC and increases to both your Strength and Dexterity ability scores by 4.\nIn addition, you gain advantage on any Strength and Dexterity saving throw or ability check. You are able to leap great distances, effectively able to cast the jump spell at will from the armor. Your base walking speed also increases by 30 feet while wearing this armor, and you are immune to fire and cold damage. However, you are vulnerable to electrical damage.\nIn addition, you can use the following abilities once a day:\n• When you miss with a melee weapon attack, you can instead choose to hit.\n• You can fly with of speed of 90 ft. You can sustain this flight for up to 8 rounds.\n• When you fail a saving throw or ability check, you can instead choose to succeed.\nWhile wearing the armor, you gain darkvision and truesight to a range of 60 feet. If you already have darkvision or truesight, its range is amplified by 30 feet.\n\nYou are able to cast the spells color spray and melf's acid arrow three times before a short or long rest while wearing the Exo-Armor. Both spells are cast as if using a 5th level spell slot.\nThe armor seems to never take any visible damage, regardless of the blow sustained while wearing it.\nAll of the suit's functions and abilities, with the exception of its increase in AC and ability scores, only work after the suit is attuned. The suit will only attune with someone of good (LG, NG, CG) alignment.\nDestroying the Armor. Attempts to destroy the armor have been made in the past. After Tony's death, the armor passed to his son, Steven, who went on to earn fame on other worlds as a hero and vanquisher of evil. Steven met his demise in Hades, where the armor was deemed too dangerous to exist and was tossed in the River Stix. The armor, however, remained. It floated down the river and eventually ended up in the hands of a powerful archon who bequeathed it to another hero. Down the line of great heroes it traveled, and many came to know the Man of Iron. The suit itself is impervious to damage and heals any cut, scratch, or ding it suffers within minutes. It has resisted acid, flame, and extreme cold.\nThe armor can only be destroyed by returning it to its planet of origin and bathing it in alchemical solutions that include copious amounts of a substance known as mana crystal. The formula was written by Tony and recorded in two places: his workbook, which has since been lost to time, and a letter to his son, Steven, which he wrote on his death bed. The letter is rumored to be among Steven's effects, left in his father's tower, which has remained magically sealed and warded for centuries with no apparent entry.",
+    "effect_kinds_raw": [],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "only flavor/backstory text appears on this page; no mechanical effects are given before the page break"
+    ],
+    "pdf_page_start": 7,
+    "pdf_page_end": 9
+  },
+  {
+    "name": "Helm of Ill Omen",
+    "type_line": "Wonderous item, uncommon (requires attunement)",
+    "category_raw": "Wonderous item",
+    "subtype_raw": "",
+    "rarity_raw": "uncommon",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "While wearing this helm",
+    "description": "While wearing this helm, you are able to affect the luck of those around you. Anytime a creature makes a saving throw, attack, or ability check within 20 feet of your position and in your line of sight, you can use your reaction and the magic of the helm to force the roll to be made at a disadvantage. You can do this a total of three times before a long rest, but must declare your intent to use the magic of the helm before the roll is made. A Wisdom saving throw against a DC13 is allowed to resist the effect.",
+    "effect_kinds_raw": [
+      "impose disadvantage on nearby creatures' rolls"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "a total of three times before a long rest",
+      "must declare your intent to use the magic of the helm before the roll is made",
+      "A Wisdom saving throw against a DC13 is allowed to resist the effect"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Category misspelled as \"Wonderous item\"",
+      "\"at a disadvantage\" and \"a DC13\" are odd phrasings kept verbatim"
+    ],
+    "pdf_page_start": 9,
+    "pdf_page_end": 9
+  },
+  {
+    "name": "Helm of Impaling",
+    "type_line": "Wondrous item, rare",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "While wearing this helm",
+    "description": "While wearing this helm, by speaking the command word, you are able to grow the spikes found on top of the helm by an additional three feet. You may use your Attack Action to attempt to impale a creature, dealing 4d6 piercing damage. The spikes remain elongated for 4 rounds, or until you dismiss them back to their normal length with a bonus action. You may elongate the spikes twice before a short or long rest.",
+    "effect_kinds_raw": [
+      "spike growth on command",
+      "piercing damage attack"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "The spikes remain elongated for 4 rounds",
+      "You may elongate the spikes twice before a short or long rest"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 10,
+    "pdf_page_end": 10
+  },
+  {
+    "name": "Helm of the Hydra",
+    "type_line": "Wondrous item, very rare (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "While wearing the helm",
+    "description": "This powerful helm grants you the abilities of a hydra. While wearing the helm, you can hold your breath for up to one hour. If you sleep while wearing the helm, you gain the benefits of the alarm spell, causing the helm to wake you if a Tiny or larger creature comes within 30 feet of your position. In addition, you gain advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious. You are also able to use your reaction to make 2 opportunity attacks instead of one anytime you are normally able to.",
+    "effect_kinds_raw": [
+      "extended breath holding",
+      "alarm while sleeping",
+      "save advantage vs conditions",
+      "extra opportunity attacks"
+    ],
+    "creatures_mentioned": [
+      "hydra"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [
+      "alarm"
+    ],
+    "limitations_raw": [
+      "you can hold your breath for up to one hour"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Title is printed in bold title case rather than the small caps used by the other items on this page"
+    ],
+    "pdf_page_start": 10,
+    "pdf_page_end": 10
+  },
+  {
+    "name": "Shield of Frightful Presence",
+    "type_line": "Armor (shield), uncommon",
+    "category_raw": "Armor",
+    "subtype_raw": "shield",
+    "rarity_raw": "uncommon",
+    "attunement_raw": "",
+    "worn_or_held_raw": "While wielding this shield",
+    "description": "While wielding this shield, you are able to use your Action to cause any creature within 20 feet who can see you to perform a Wisdom saving throw against a DC12. Failure of the save results in them gaining the frightened condition for 1d6 rounds. A successful save makes the creature immune to the shield's magic for 24 hours.",
+    "effect_kinds_raw": [
+      "fear on others"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "A successful save makes the creature immune to the shield's magic for 24 hours"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 10,
+    "pdf_page_end": 10
+  },
+  {
+    "name": "Shield of Radiant Glory",
+    "type_line": "Armor (shield), very rare (requires attunement)",
+    "category_raw": "Armor",
+    "subtype_raw": "shield",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "While wielding this shield",
+    "description": "This shield is covered with depictions of victorious armies on the march around the snarling face of a medusa which rests in the center. In addition to granting a +2 to your AC, the shield can be made to shine with bright light after combat ends, granting everyone who can see it hit points equal to 2 + their Constitution modifier (if any), as well as curing anyone suffering from petrifaction, so long as they were petrified by the gaze of a medusa. Creatures cannot gain more hit points than their maximum this way, and any excess healing is lost. This ability can be used once before a short or long rest. While wielding this shield, you are immune to the petrifying gaze of a medusa and gain a +2 to attack rolls and damage against them.",
+    "effect_kinds_raw": [
+      "AC bonus",
+      "healing",
+      "petrification cure and immunity",
+      "attack and damage bonus"
+    ],
+    "creatures_mentioned": [
+      "medusa"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "This ability can be used once before a short or long rest."
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "The text spells the condition inconsistently: \"petrifaction\" in one sentence and \"petrifying\"/\"petrified\" elsewhere."
+    ],
+    "pdf_page_start": 11,
+    "pdf_page_end": 11
+  },
+  {
+    "name": "Cold Flame",
+    "type_line": "Weapon (any sword), very rare",
+    "category_raw": "Weapon",
+    "subtype_raw": "any sword",
+    "rarity_raw": "very rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "the sword is dropped or sheathed",
+    "description": "You can use a bonus action to speak this magic sword's command word, causing blue flames to erupt from the blade. The flames shed no heat, instead radiating a bitter cold and shedding bright light over a 40 foot radius, with a dimmed light spread across an additional 40 feet. When you hit with an attack using this magic sword, the target takes an extra 2d4 cold damage. The flames last until you use another bonus action to speak the command word again, or the sword is dropped or sheathed.",
+    "effect_kinds_raw": [
+      "cold damage bonus",
+      "light emission",
+      "toggleable blade effect"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "The flames last until you use another bonus action to speak the command word again, or the sword is dropped or sheathed."
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Light radius given as \"40 foot radius\" rather than the conventional \"40-foot radius\""
+    ],
+    "pdf_page_start": 12,
+    "pdf_page_end": 12
+  },
+  {
+    "name": "Coral Greatsword of Underwater Combat",
+    "type_line": "Weapon (Greatsword), very rare (requires attunement)",
+    "category_raw": "Weapon",
+    "subtype_raw": "Greatsword",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "While you hold the drawn sword underwater",
+    "description": "You gain a +2 bonus to attack and damage rolls made with this magical weapon. When you wield this weapon and are fully immersed in water, its special properties come to life.\nWhile you hold the drawn sword underwater, it creates a field surrounding you that grants you unimpeded movement. An impenetrable bubble of fresh air forms around your face and renews itself from the oxygen found in the water. Additionally, your swim speed increases by 20 feet.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "unimpeded underwater movement",
+      "water breathing",
+      "swim speed increase"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [
+      "water",
+      "underwater"
+    ],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "When you wield this weapon and are fully immersed in water, its special properties come to life."
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Subtype \"Greatsword\" is capitalized unlike the lowercase convention"
+    ],
+    "pdf_page_start": 12,
+    "pdf_page_end": 12
+  },
+  {
+    "name": "Dagger of Toxic Absorption",
+    "type_line": "Weapon (Dagger), rare",
+    "category_raw": "Weapon",
+    "subtype_raw": "Dagger",
+    "rarity_raw": "rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "",
+    "description": "You gain a +1 bonus to attack and damage rolls made with this magic weapon. Additionally, the dagger can absorb any poison or toxin it touches for later use. The weapon stores the toxin for 24 hours and discharges it upon a successful critical strike. However, if 24 hours pass without the weapon expending the toxin, it is rendered inert and escapes the weapon's hilt as a faint mist.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "poison absorption and storage",
+      "poison discharge on critical hit"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "The weapon stores the toxin for 24 hours",
+      "if 24 hours pass without the weapon expending the toxin, it is rendered inert and escapes the weapon's hilt as a faint mist"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Subtype \"Dagger\" is capitalized unlike the lowercase convention"
+    ],
+    "pdf_page_start": 12,
+    "pdf_page_end": 12
+  },
+  {
+    "name": "Danthag's Razor",
+    "type_line": "Weapon (Battleaxe), very rare (requires attunement)",
+    "category_raw": "Weapon",
+    "subtype_raw": "Battleaxe",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "",
+    "description": "You gain a +1 bonus to attack and damage rolls made with this magical weapon. When you score a successful hit, you can use your bonus action to cause the wound to bleed. At the start of the affected creature's turn, it suffers an additional 4 points of slashing damage and receives a -1 on attack rolls. The bleeding and attack roll penalties continue until the creature is dead, reaches a maximum of -5 on its attack rolls, or is the creature is the recipient of healing magic. The weapon’s ability can be used three times a day.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "bleed damage over time",
+      "attack roll penalty on target"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "The weapon’s ability can be used three times a day."
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Grammatical error in source retained verbatim: \"or is the creature is the recipient of healing magic\""
+    ],
+    "pdf_page_start": 13,
+    "pdf_page_end": 13
+  },
+  {
+    "name": "Darkstar Mace",
+    "type_line": "Weapon (Mace), legendary (requires attunement)",
+    "category_raw": "Weapon",
+    "subtype_raw": "Mace",
+    "rarity_raw": "legendary",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "While you hold the drawn weapon",
+    "description": "You gain a +2 bonus to attack and damage rolls made with this magical weapon. This mace is lighter than other weapons of similar make and seems to slightly bend the light surround it.\n\nWhile you hold the drawn weapon, you are protected by an invisible field that distorts space around you. Any ranged or melee attack made against you has a 20% chance to miss, and anytime a strike misses you, you may use your reaction to cause the strike to hit another target of your choice within its range. If there is no available target, nothing happens.\n\nYou may use your action to teleport to any location not occupied by another creature within 90 feet and in your line of sight. When you arrive in this space, your form is wavered and you gain immunity to slashing, bludgeoning, and piercing damage on your next turn. You can use this ability once a day.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "miss chance and attack redirection",
+      "teleportation",
+      "temporary damage immunity"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "You can use this ability once a day."
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Odd phrasing in source retained verbatim: \"seems to slightly bend the light surround it\"",
+      "Odd phrasing in source retained verbatim: \"your form is wavered\""
+    ],
+    "pdf_page_start": 13,
+    "pdf_page_end": 13
+  },
+  {
+    "name": "Devastator",
+    "type_line": "Weapon (Warhammer), legendary (requires attunement)",
+    "category_raw": "Weapon",
+    "subtype_raw": "Warhammer",
+    "rarity_raw": "legendary",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "",
+    "description": "You gain a +3 bonus to attack and damage rolls made with this magical weapon. When you score a successful hit against a construct, the damage is doubled. This does not apply to critical hits.\n\nWhile attuned to the weapon, you are able to sense the presence of any constructs within 90 feet of your current position, regardless of mundane or magical barriers or spells designed to fool the senses.\n\nOnce per day, you can use an attack action to throw the hammer at any construct within 90 feet and in your line of sight. This strike automatically hits and deals weapon damage normally, including double damage against a construct. You may use your bonus action to instantly recall the hammer back to your hand, or you can cause the hammer to split into three identical, smaller hammers that can fly away and strike three additional constructs within 90 feet. These strikes also hit automatically, however, they do not deal double damage. The hammer can only split if there are at least 4 constructs within your line of sight. Once the hammers strike, they reform into one and return to your hand.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "double damage vs constructs",
+      "construct detection",
+      "ranged auto-hit throw"
+    ],
+    "creatures_mentioned": [
+      "construct",
+      "constructs"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "Once per day",
+      "The hammer can only split if there are at least 4 constructs within your line of sight"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 14,
+    "pdf_page_end": 14
+  },
+  {
+    "name": "Gurb's Choppa",
+    "type_line": "Weapon (Handaxe), rare (requires attunement)",
+    "category_raw": "Weapon",
+    "subtype_raw": "Handaxe",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "",
+    "description": "You gain a +1 bonus to attack and damage rolls made with this magical weapon. Twice per day, you can cause the weapon to deliver a more powerful slice, dealing an additional 1d6 slashing damage after a successful strike. This attack also dislodges a piece of the weapon into the targeted creature, and the piece of shrapnel deals an additional 1d6 slashing damage on the next turn. Pieces dislodged this way reform on the weapon after 24 hours, often in the form of jury-rigged scraps of metal attached to the blade.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "bonus slashing damage",
+      "delayed shrapnel damage"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "Twice per day",
+      "Pieces dislodged this way reform on the weapon after 24 hours"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 14,
+    "pdf_page_end": 14
+  },
+  {
+    "name": "Ivory Sword of the Juggernaut",
+    "type_line": "Weapon (Shortsword), very rare (requires attunement)",
+    "category_raw": "Weapon",
+    "subtype_raw": "Shortsword",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "",
+    "description": "You gain a +1 bonus to attack and damage rolls made with this magical weapon. If you use the sword to take a life, you become increasingly dangerous and difficult to stop. If a creature is killed with the sword, you are able to use your bonus action to move up to 20 feet and attack another creature. You do not provoke an opportunity attack by moving this way. This attack is made with a +2 bonus to the attack and damage roll. If you successfully strike the creature, you may move again up to 20 feet to attack another creature. Once again, you provoke no opportunity attack by moving this way. This attack is made with a +3 bonus to the attack and damage roll. If you succeed in that attack, you gain +3 to your AC for the next three rounds.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "bonus movement after kill",
+      "escalating attack bonuses",
+      "temporary AC bonus"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "for the next three rounds"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Text says \"Once again, you provoke no opportunity attack by moving this way\" though the first move also did not provoke — phrasing kept verbatim"
+    ],
+    "pdf_page_start": 15,
+    "pdf_page_end": 15
+  },
+  {
+    "name": "Sawtooth Greatsword",
+    "type_line": "Weapon (Greatsword), very rare",
+    "category_raw": "Weapon",
+    "subtype_raw": "Greatsword",
+    "rarity_raw": "very rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "",
+    "description": "You gain a +2 bonus to attack and damage rolls made with this magic weapon. Whenever you score a critical hit with this weapon, the damage is tripled instead of doubled.\nWhen you make a successful attack with this sword, you may use your bonus action to deal an additional 1d8 slashing damage. The weapon can use this ability three times a day.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "tripled critical damage",
+      "bonus action extra damage"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "three times a day"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 15,
+    "pdf_page_end": 15
+  },
+  {
+    "name": "Shadowpoint",
+    "type_line": "Weapon (Rapier), very rare (requires attunement)",
+    "category_raw": "Weapon",
+    "subtype_raw": "Rapier",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "When you wield this weapon",
+    "description": "You gain a +2 bonus to attack and damage rolls made with this magical weapon, and it deals an additional 1d4 necrotic damage with successful strikes. When you wield this weapon, your outline and form partially blend in with the ambient shadows, granting you a +3 bonus to Dexterity (Stealth) ability checks.\nOnce per day, you may call upon the power of the blade and convert your form to pure shadow, increasing your movement speed by 50 feet for one turn. While moving this way, you do not provoke opportunity attacks, and you can move through the space of creatures that are larger than you are. However, you cannot end your movement that round in a space occupied by a creature.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "extra necrotic damage",
+      "stealth bonus",
+      "shadow-form movement"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "Once per day",
+      "for one turn"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 15,
+    "pdf_page_end": 15
+  },
+  {
+    "name": "Sword of the Youxia",
+    "type_line": "Weapon (Longsword), very rare (requires attunement)",
+    "category_raw": "Weapon",
+    "subtype_raw": "Longsword",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "",
+    "description": "You gain a +2 bonus to attack and damage rolls made with this magical weapon.\n\nWhile attuned to the sword, your movement speed increases by 20 feet regardless of armor worn or your current encumbrance. You also gain advantage on Constitution saving throws to see if you can continue to run for long distances.\n\nWhen you have the sword drawn, you can use your bonus action to have it shed bight light in a 30 foot radius and dim light for an additional 30 feet. Additionally, and useable twice per day, you can cast the spell locate creature or locate object from the sword as a bonus action.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "movement speed increase",
+      "light emission",
+      "spellcasting"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [
+      "locate creature",
+      "locate object"
+    ],
+    "limitations_raw": [
+      "useable twice per day"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "\"bight light\" appears to be a typo for \"bright light\", transcribed verbatim",
+      "\"useable\" spelling retained verbatim"
+    ],
+    "pdf_page_start": 16,
+    "pdf_page_end": 16
+  },
+  {
+    "name": "Sword of the Lion Emperor",
+    "type_line": "Weapon (Longsword), legendary (requires attunement)",
+    "category_raw": "Weapon",
+    "subtype_raw": "Longsword",
+    "rarity_raw": "legendary",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "",
+    "description": "You gain a +3 bonus to attack and damage rolls made with this magical weapon, and it deals an additional 1d8 radiant damage to undead and fiends. The sword is inscribed with ancient runes of power that imbue its wielder with supernatural power.\n\nWhile attuned to the sword, you gain a +3 bonus to Wisdom (Perception) ability checks to notice hidden objects. You are considered ever alert and cannot be surprised or flanked. Additionally, you gain a +3 bonus to Charisma (Persuasion) ability checks when addressing multiple people.\n\nWhen you have the sword drawn, you gain a +2 to your AC and +2 to your Strength and Dexterity ability scores. You are also able to use your reaction to cast the command spell three times per day.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "extra damage vs creature types",
+      "skill check bonuses",
+      "AC and ability score boost"
+    ],
+    "creatures_mentioned": [
+      "undead",
+      "fiends"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [
+      "command"
+    ],
+    "limitations_raw": [
+      "three times per day"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 16,
+    "pdf_page_end": 16
+  },
+  {
+    "name": "War Pick of Armor Piercing",
+    "type_line": "Weapon (War Pick), rare",
+    "category_raw": "Weapon",
+    "subtype_raw": "War Pick",
+    "rarity_raw": "rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "",
+    "description": "You gain a +2 bonus to attack and damage rolls with this magical weapon against targets that are wearing armor or using a shield. You gain no bonus if the target is not wearing armor or not using a shield.",
+    "effect_kinds_raw": [
+      "attack and damage bonus"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "You gain no bonus if the target is not wearing armor or not using a shield."
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Subtype capitalized as \"War Pick\" in the type line",
+      "Page is mostly full-page artwork with only one short item"
+    ],
+    "pdf_page_start": 17,
+    "pdf_page_end": 17
+  },
+  {
+    "name": "Amulet of Gazing",
+    "type_line": "Wondrous item, rare (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while you wear this amulet",
+    "description": "You are protected from the gaze attack of creatures while you wear this amulet. In addition, the amulet has 3 charges. Using your action, you can spend one or more of the charges to cast the following spells: charm person (1 charge), eyebite (3 charges). The amulet regains 1d3 charges at midnight.",
+    "effect_kinds_raw": [
+      "protection from gaze attacks",
+      "spell casting via charges"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [
+      "charm person",
+      "eyebite"
+    ],
+    "limitations_raw": [
+      "The amulet regains 1d3 charges at midnight"
+    ],
+    "charges_text": "the amulet has 3 charges. Using your action, you can spend one or more of the charges to cast the following spells: charm person (1 charge), eyebite (3 charges). The amulet regains 1d3 charges at midnight.",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 18,
+    "pdf_page_end": 18
+  },
+  {
+    "name": "Amulet of Undead Control",
+    "type_line": "Wondrous item, very rare (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while wearing this amulet",
+    "description": "You are able to exert your control over undead creatures while wearing this amulet. Applicable creatures must be within 30 feet and in your line of sight and they must fail a DC 15 Wisdom saving throw. Using your action, you can control a total of 22 HD worth of undead creatures at one time. While under thrall, the creatures will not harm you or any creature you specifically designate. You are able to issue the creatures orders, however it takes you action to do so. The creatures stay under your manipulation for 1 + 1d6 hours, after which they are free of your influence, and are considered immune to the magic of the amulet for 24 hours. Undead creatures with a CR of 5 or above are immune to the powers of this amulet. The amulet needs at least 8 hours before it can be used to control undead creatures again after its use.",
+    "effect_kinds_raw": [
+      "control over undead",
+      "issuing orders to controlled creatures"
+    ],
+    "creatures_mentioned": [
+      "undead creatures",
+      "Undead creatures with a CR of 5 or above"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "you can control a total of 22 HD worth of undead creatures at one time",
+      "The creatures stay under your manipulation for 1 + 1d6 hours",
+      "immune to the magic of the amulet for 24 hours",
+      "Undead creatures with a CR of 5 or above are immune to the powers of this amulet",
+      "The amulet needs at least 8 hours before it can be used to control undead creatures again after its use"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "\"it takes you action to do so\" — likely typo for \"your action\", transcribed verbatim"
+    ],
+    "pdf_page_start": 18,
+    "pdf_page_end": 18
+  },
+  {
+    "name": "Barlgura Tooth Helm",
+    "type_line": "Wondrous item, very rare (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "While wearing this helm",
+    "description": "While wearing this helm, you gain the resistances and immunities associated with Barlgura demons. You gain resistance to cold, fire, and lightning damage. In addition, you are immune to poison damage and the poisoned condition.",
+    "effect_kinds_raw": [
+      "damage resistance",
+      "damage immunity",
+      "condition immunity"
+    ],
+    "creatures_mentioned": [
+      "Barlgura demons"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 18,
+    "pdf_page_end": 18
+  },
+  {
+    "name": "Feathered Crown",
+    "type_line": "Wondrous item, rare (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "While wearing this crown",
+    "description": "While wearing this crown, you are protected by a permanent feather fall spell. In addition, you gain a +2 bonus to saving throws against magic cast by beings from the Elemental Plane of Air.",
+    "effect_kinds_raw": [
+      "slow falling",
+      "saving throw bonus"
+    ],
+    "creatures_mentioned": [
+      "beings from the Elemental Plane of Air"
+    ],
+    "environments_mentioned": [
+      "Elemental Plane of Air"
+    ],
+    "spells_mentioned": [
+      "feather fall"
+    ],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 19,
+    "pdf_page_end": 19
+  },
+  {
+    "name": "Golden Mask of the Glorious Emperor",
+    "type_line": "Wondrous item, legendary (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "legendary",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "While wearing the mask",
+    "description": "This mask was crafted centuries ago for Emperor Claudius VI after he lost the tip of his nose and part of his cheek from the swipe of a dire badger. While wearing the mask, you are immune to bludgeoning, piercing, and slashing damage from non-magical sources. In addition, your Charisma ability score increases by 3 points and you gain advantage on Charisma saving throws and ability checks.",
+    "effect_kinds_raw": [
+      "damage immunity",
+      "ability score increase",
+      "advantage on saves and checks"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "dire badger appears only in flavor text about the mask's origin, not in mechanics"
+    ],
+    "pdf_page_start": 19,
+    "pdf_page_end": 19
+  },
+  {
+    "name": "Mask of Ill Luck",
+    "type_line": "Wondrous item, uncommon (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "uncommon",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "",
+    "description": "This mask allows you to use your reaction once before a short or long rest to effect the luck of one creature near you by forcing them to reroll any one attack roll, saving throw, or ability check. The new roll is made with a -1 penalty and the outcome of the new roll is final. The creature must be within 30 feet and in your line of sight to be effected this way.",
+    "effect_kinds_raw": [
+      "forced reroll",
+      "penalty on reroll"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "once before a short or long rest",
+      "The creature must be within 30 feet and in your line of sight"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "uses \"effect\" and \"effected\" where \"affect\"/\"affected\" is meant"
+    ],
+    "pdf_page_start": 19,
+    "pdf_page_end": 19
+  },
+  {
+    "name": "Mask of Insight",
+    "type_line": "Wondrous item, rare (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while wearing the mask",
+    "description": "This mask confers upon you great wisdom. You gain advantage on Wisdom saving throws and Wisdom (Insight) checks while wearing the mask.",
+    "effect_kinds_raw": [
+      "saving throw advantage",
+      "skill check advantage"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 20,
+    "pdf_page_end": 20
+  },
+  {
+    "name": "Mask of Winged Majesty",
+    "type_line": "Wondrous item, very rare (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "While wearing the mask",
+    "description": "This mask was crafted by the Aarakocra archmage Ferrantou the Lofty Flyer. While wearing the mask, you are immune to cold damage, and gain resistance to lightning damage. If you have a flying speed, it is increased by 60 feet. In addition, you gain advantage on Dexterity saving throws and ability checks while airborne.",
+    "effect_kinds_raw": [
+      "damage immunity",
+      "damage resistance",
+      "movement speed increase",
+      "saving throw and check advantage"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "while airborne"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Flavor text names the Aarakocra archmage Ferrantou the Lofty Flyer as the crafter"
+    ],
+    "pdf_page_start": 20,
+    "pdf_page_end": 20
+  },
+  {
+    "name": "Mask of the Performer",
+    "type_line": "Wondrous item, very rare (requires attunement by a bard)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement by a bard",
+    "worn_or_held_raw": "While the mask is worn and attuned",
+    "description": "This beautifully painted porcelain mask grants you the ability to cast the cantrip prestidigitation at will. While the mask is worn and attuned, you are able to add your proficiency bonus to rolls made using your Bardic Inspiration.",
+    "effect_kinds_raw": [
+      "at-will cantrip casting",
+      "bonus to Bardic Inspiration rolls"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [
+      "prestidigitation"
+    ],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 20,
+    "pdf_page_end": 20
+  },
+  {
+    "name": "Necklace of Simple Prayers",
+    "type_line": "Wondrous item, rare (requires attunement by a bard, paladin, ranger, sorcerer, warlock, or wizard)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement by a bard, paladin, ranger, sorcerer, warlock, or wizard",
+    "worn_or_held_raw": "",
+    "description": "This necklace is made of numerous small polished clay beads. There are four larger beads adorned with simple runes that correspond to the cleric cantrip they contain. Each large bead can be used to cast its cantrip once before a long rest. Using a bead this way uses your bonus action. Typically, the necklace will have the following beads: guidance, mending, resistance, spare the dying. The beads can only contain and cast cantrips found on the cleric spell list.",
+    "effect_kinds_raw": [
+      "cantrip casting"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [
+      "guidance",
+      "mending",
+      "resistance",
+      "spare the dying"
+    ],
+    "limitations_raw": [
+      "once before a long rest"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "restriction that beads can only contain cantrips found on the cleric spell list"
+    ],
+    "pdf_page_start": 21,
+    "pdf_page_end": 21
+  },
+  {
+    "name": "Necklace of the Predator",
+    "type_line": "Wondrous item, very rare (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "",
+    "description": "This necklace is crafted from a simple string or cord and adorned with the fangs and teeth of various predator animals such as a bear or panther. The necklace has 3 charges. Using your action, you may spend one charge and use the magic of the necklace to transform yourself into one of the following animals: blood hawk, boar, brown bear, crocodile, killer whale, panther, reef shark, saber-toothed tiger, or wolf. The transformation is similar to that of the Wild Shape ability in regards to the rules that apply while you are transformed, and you stay in the beast shape for a number of minutes equal to your proficiency bonus. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die. The necklace regains 1d3 charges at midnight.",
+    "effect_kinds_raw": [
+      "animal shapeshifting"
+    ],
+    "creatures_mentioned": [
+      "blood hawk",
+      "boar",
+      "brown bear",
+      "crocodile",
+      "killer whale",
+      "panther",
+      "reef shark",
+      "saber-toothed tiger",
+      "wolf"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "The necklace has 3 charges",
+      "a number of minutes equal to your proficiency bonus",
+      "regains 1d3 charges at midnight"
+    ],
+    "charges_text": "The necklace has 3 charges. Using your action, you may spend one charge and use the magic of the necklace to transform yourself into one of the following animals. The necklace regains 1d3 charges at midnight.",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "references the Wild Shape ability for transformation rules"
+    ],
+    "pdf_page_start": 21,
+    "pdf_page_end": 21
+  },
+  {
+    "name": "Ring of Elven Lords",
+    "type_line": "Ring, artifact (requires attunement by an elf)",
+    "category_raw": "Ring",
+    "subtype_raw": "",
+    "rarity_raw": "artifact",
+    "attunement_raw": "requires attunement by an elf",
+    "worn_or_held_raw": "wear the ring",
+    "description": "Crafted eons ago by a cabal of elven spellcasters, the Ring of Elven Lords has adorned the hands of numerous elven kings, queens, and statesmen. At the time of its creation, the elven lands of Syriddria were being threatened by orc hordes of immense size. The dark forces boiled out of their mountain holes and into the lowlands, forests, and glades of the elven people.\nThe valiant efforts of the elven defenders kept the majority of the descending horde away from their population centers, however, countless elven villages and outposts were utterly destroyed by the orcs. The turmoil caused by the attacks began to split the elven ruling council made up of the high elves, wood elves, and gray elves of the region. With dark forces at their doorsteps, civil war began to loom over the utopian society.\nA group of learned sages, sorcerers, and wizards banded together to create an item that would unite the races again. The ring is fashioned from gold and adorned with a single square cut sapphire. Runes of power were etched both inside and on the band. Weeks would pass as the cabal poured their energy and expertise into crafting the ring. When it was done, they forced the fractured council to meet and choose one among them to wear the ring.\n\nAfter much deliberation, the wood elf bowman known as Oakleaf was chosen. It would be known hence forth, that in times of great turmoil and danger to the elven people, a single champion will arise to unite them and bring them into prosperity. Oakleaf donned the ring and took her position as Colonel of Syriddria. She took control of the elvish forces which had previously been in the hands of feuding commanders who worried more about securing their own territories instead of repelling the invaders from the land.\nUsing the powers of the ring, she lead the elven armies into battle against the dark hordes. Victories came swiftly once the elven people were united, and the orcs broke ranks time and time again in the face of elven superiority. Oakleaf survived the war, and keeping a promise she made when she was chosen, she relinquished the ring back to the safe-keeping of the council. It rested in a secure vault for nearly four centuries before it was given to a new champion, Ales'an Iellionnaeh, also known as the Golden Lion. This time, the elven lands were being overrun not by orc hordes, but by legions of drow and their demonic allies.\nThe powers of the ring kept Colonel Ales'an alive, however, dark magic cast against him during a climactic battle did something to his mind, warping his perception of who was really friend and who was a foe. After the war, an increasingly paranoid Ales'an began to recruit powerful elven lords who swore allegiance to him, rather than to the realm. In a bid for power, Ales'an started a coup against the ruling council, killing some and jailing the rest. He crowned himself the first king of Syriddria and refused to give up possession of the ring. Instead, the ring became the symbol of the new royalty, and was subsequently passed down to eleven of Ales'an's descendents, each a king or queen or other important person in Syriddria.\nEventually, like all things, the reign of the elven lords came to an end when the kingdom of Syriddria was destroyed by a cataclysmic magical explosion that was felt and heard across the planet. Lofty cities of crystal and gold were shattered and tossed down by the blast. Forests and mountains were leveled. Lakes were evaporated and grasslands were set alight. After it was done, only craters and burned patches of ground were left of the once powerful elven kingdom.\nThe ring, however, endured. Buried under tons of rock and debris, the ring waited for eight centuries before being uncovered by a group of human scavengers who came upon the blasted land. The power of the ring was unknown to them, but because of its beautiful construction, it sold for hundreds of gold pieces to an antique dealer in the city of Rhodde. Here, it rested in his personal collection until his death. The ring was passed on to his half-elven cousin who recognized it from stories he read as a child. He kept the ring safe for another eighty years. As he lay dying, he gave the ring to his father, an elven renegade and thief, hoping he would change his ways once he was in possession of the artifact that was closely linked to his heritage.\n\nUnfortunately, there was no rehabilitating his father, and he lost the ring while plundering a tomb of an ancient wizard. News of the whereabouts of the ring disappear after that. It is known that the wizard's tomb was plundered at least four times after that, and any of the tomb robbers could of picked the ring up and taken it with them. Divinations made to locate the ring only confirm it has not been taken to another plane of existence, however, they have yet to uncover its current location.\nImmunities. While attuned to the ring, you are immune to the following conditions: charmed, blinded, deafened, stunned, paralyzed, and petrified.\nResistances. The ring grants you resistance to magical and non-magical weapon damage.\nHeightened Senses. The ring grants you advantage on any Wisdom (Perception) checks that rely on sight, smell, or hearing. You are also unable to be flanked or surprised.\nRegeneration. You regenerate 10 hit point every turn if you start your turn with at least 1 hit point. You can regrow lost limbs and appendages in 24 hours.\nIncreased Ability Scores. Your Intelligence, Wisdom, and Charisma ability scores all increase by 3 points. In addition, elves regard you as friendly upon first meeting, and will regard you as such until you deal physical harm to them or someone they care about.\nSpellcasting. While attuned to the ring, you may use your action to cast one of the following spells: hallucinatory terrain, stone shape, creation, passwall, or telekinesis. Spells cast from the ring are cast using a spell slot that corresponds with the spell's level.\nSummon Warriors. You are able to use your action to conjure 10 elven warriors (stats as a knight) who will defend you for 1 + 2d12 minutes, at which time they disperse into mist. You may not use this feature again until 24 hours have passed since its last use.\nVulnerability. While attuned to the ring, the mental strain put upon you makes you vulnerable to psychic damage. In addition, if you are attuned to the ring for more than eleven weeks, you gain a form of indefinite madness (chosen at random) as described in the Dungeon Master's Guide. The madness can only be cured once the ring is taken off and kept off for a period of time equal to the amount of time it was worn.\nDestroying the Ring. The only way to destroy the ring of elven lords is to take the ring to the Abyss and have it worn by the demon goddess Lloth. This will break the link the ring has to the elven people and drain it of all of its magic.",
+    "effect_kinds_raw": [],
+    "creatures_mentioned": [
+      "elf"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Page contains only origin/lore prose for this item; no mechanical effect text appears before the page break, so effect_kinds_raw is empty.",
+      "Large full-width illustration of the ring occupies the top half of the page above the item title."
+    ],
+    "pdf_page_start": 22,
+    "pdf_page_end": 24
+  },
+  {
+    "name": "Axe of Enemy Attunement",
+    "type_line": "Weapon (any axe), rare (requires attunement)",
+    "category_raw": "Weapon",
+    "subtype_raw": "any axe",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while wielding this axe",
+    "description": "You gain a +1 bonus to attack and damage rolls while wielding this axe. You may use your bonus action to attune the axe to one particular creature type. Once attuned this way, creatures of the chosen type have their AC reduced by 1 point against attacks from the attuned axe only. Attunement to a creature type lasts for 1 minute, at which point the axe goes dormant, but still provides its bonus to attack and damage rolls. A short rest is needed to be able to attune the axe to another creature type.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "AC reduction on chosen creature type"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "Attunement to a creature type lasts for 1 minute",
+      "A short rest is needed to be able to attune the axe to another creature type"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Uses the word \"attune\" for its own creature-type mechanic, distinct from the item attunement in the type line"
+    ],
+    "pdf_page_start": 25,
+    "pdf_page_end": 25
+  },
+  {
+    "name": "Axe of Spell Stealing",
+    "type_line": "Weapon (any axe), rare (requires attunement)",
+    "category_raw": "Weapon",
+    "subtype_raw": "any axe",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while wielding this axe",
+    "description": "You gain a +1 bonus to attack and damage rolls while wielding this axe. If you are the target of a magical spell that deals hit point damage or forces you to make a saving throw to escape adverse effects, the axe has a chance to absorb the magical energy of the spell and use it to augment critical strikes made with it. You may use your reaction to roll a 1d6 when you are targeted with a harmful spell. On a roll of 1 - 4, the spell strikes you and you must make a saving throw, if applicable. On a roll of 5 - 6, the spell is absorbed by the axe and the magical energy his held for 1 hour. In that time, if you score a critical strike with the axe, the energy is released with the blow, adding additional damage equal to the spell slot associated with the spell that was absorbed. The axe can only hold one spell at a time. If you do not perform a critical strike within the time allotted, the magical energy is released harmlessly after the time has run out.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "spell absorption",
+      "bonus critical strike damage"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "the magical energy his held for 1 hour",
+      "The axe can only hold one spell at a time",
+      "If you do not perform a critical strike within the time allotted, the magical energy is released harmlessly after the time has run out"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Typo in source: \"the magical energy his held for 1 hour\" (his for is)"
+    ],
+    "pdf_page_start": 25,
+    "pdf_page_end": 25
+  },
+  {
+    "name": "Bone Armor of the Unyielding Champion",
+    "type_line": "Armor (splint), very rare (requires attunement)",
+    "category_raw": "Armor",
+    "subtype_raw": "splint",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while wearing this suit of macabre armor",
+    "description": "You gain a +2 bonus to your AC while wearing this suit of macabre armor. If you are ever brought to 0 hit points while wearing the armor, you automatically stabilize on your next turn and heal an amount of hit points equal to your proficiency bonus + your Constitution modifier, if any. This property cannot function more than once in a 12 hour period. In addition, you gain resistance to necrotic damage while wearing the armor.",
+    "effect_kinds_raw": [
+      "AC bonus",
+      "auto-stabilize and healing at 0 hit points",
+      "damage resistance"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "cannot function more than once in a 12 hour period"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 25,
+    "pdf_page_end": 25
+  },
+  {
+    "name": "Cold Iron Weapon",
+    "type_line": "Weapon (any), uncommon",
+    "category_raw": "Weapon",
+    "subtype_raw": "any",
+    "rarity_raw": "uncommon",
+    "attunement_raw": "",
+    "worn_or_held_raw": "",
+    "description": "Weapons made from cold iron deal an additional 1d4 weapon damage to creatures who have the fey, undead, or fiend creature type. The weapon also counts as magical against these creatures for the purposes of immunity and resistance.",
+    "effect_kinds_raw": [
+      "bonus damage against creature types",
+      "counts as magical"
+    ],
+    "creatures_mentioned": [
+      "fey",
+      "undead",
+      "fiend"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 26,
+    "pdf_page_end": 26
+  },
+  {
+    "name": "Dagger of Armor Penetration",
+    "type_line": "Weapon (dagger), rare",
+    "category_raw": "Weapon",
+    "subtype_raw": "dagger",
+    "rarity_raw": "rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "while wielding this weapon",
+    "description": "You gain a +1 bonus to attack and damage rolls while wielding this weapon. The dagger is enchanted to penetrate even the most secure of armors. Against foes wearing non-magical medium or heavy armor, attacks from these daggers treat those armors as if they were 1 AC less then normal.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "reduces effective enemy armor"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "\"1 AC less then normal\" — \"then\" used where \"than\" is expected, preserved verbatim"
+    ],
+    "pdf_page_start": 26,
+    "pdf_page_end": 26
+  },
+  {
+    "name": "Dagger of Many Tricks",
+    "type_line": "Weapon (dagger), very rare (requires attunement)",
+    "category_raw": "Weapon",
+    "subtype_raw": "dagger",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while wielding this weapon",
+    "description": "You gain a +2 bonus to attack and damage rolls while wielding this weapon. The dagger has 3 charges. Using your action, you can spend one or more charges to perform the following:\n• Increase your movement speed by 20 feet for 1 minute (1 charge).\n• Increase your AC by 2 for 1 minute (2 charges).\n• Gain resistance to one weapon damage type for 1 minute (3 charges).\nThe dagger regains 1d3 charges at midnight.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "movement speed increase",
+      "AC increase",
+      "damage resistance"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "for 1 minute",
+      "regains 1d3 charges at midnight"
+    ],
+    "charges_text": "The dagger has 3 charges. Using your action, you can spend one or more charges to perform the following: Increase your movement speed by 20 feet for 1 minute (1 charge). Increase your AC by 2 for 1 minute (2 charges). Gain resistance to one weapon damage type for 1 minute (3 charges). The dagger regains 1d3 charges at midnight.",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 26,
+    "pdf_page_end": 26
+  },
+  {
+    "name": "Orichalcum Armor",
+    "type_line": "Armor (plate), legendary (requires attunement)",
+    "category_raw": "Armor",
+    "subtype_raw": "plate",
+    "rarity_raw": "legendary",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while wearing this suit of plate mail",
+    "description": "You gain a +3 bonus to your AC while wearing this suit of plate mail. Constructed on the fabled isle of Atlantis, suits of orichalcum armor were worn by the king's guard and by the island nation's generals and elite commanders. The armor grants resistance to weapon (bludgeoning, piercing, slashing) damage from non-magical sources as well as offering immunity to fire, acid, and lightning damage.",
+    "effect_kinds_raw": [
+      "AC bonus",
+      "damage resistance",
+      "damage immunity"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 27,
+    "pdf_page_end": 27
+  },
+  {
+    "name": "Armor of Increased Fortification",
+    "type_line": "Armor (any medium or heavy armor), rare (requires attunement)",
+    "category_raw": "Armor",
+    "subtype_raw": "any medium or heavy armor",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while wearing them",
+    "description": "Armors enchanted this way grant a +1 to your AC while wearing them. In addition, if you are subject to a critical strike, the armor grants you a 25% chance to shrug off the additional damage, and instead take no damage from the critical strike.",
+    "effect_kinds_raw": [
+      "AC bonus",
+      "chance to negate critical strike damage"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Body text uses plural phrasing (\"Armors enchanted this way\") describing an enchantment rather than a single item"
+    ],
+    "pdf_page_start": 27,
+    "pdf_page_end": 27
+  },
+  {
+    "name": "Razor of Lasting Wounds",
+    "type_line": "Weapon (dagger), rare (requires attunement)",
+    "category_raw": "Weapon",
+    "subtype_raw": "dagger",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while wielding this weapon",
+    "description": "You gain a +1 bonus to attack and damage rolls while wielding this weapon. Creatures struck by this weapon take an additional 1d4 slashing damage on the following two turns after the initial strike. Creatures cannot suffer the additional damage from a razor of lasting wounds more than once in a single encounter.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "delayed recurring damage"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "Creatures cannot suffer the additional damage from a razor of lasting wounds more than once in a single encounter"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 27,
+    "pdf_page_end": 27
+  },
+  {
+    "name": "Shield of Battle Prowess",
+    "type_line": "Armor (shield), rare (requires attunement)",
+    "category_raw": "Armor",
+    "subtype_raw": "shield",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while wielding this shield",
+    "description": "You gain a +1 bonus to you AC while wielding this shield. While you are in combat, you gain a supernatural sense of awareness on the battlefield. While wielding the shield, you are considered immune to sneak attacks, flanking, and being surprised.",
+    "effect_kinds_raw": [
+      "AC bonus",
+      "combat awareness",
+      "immunity to sneak attacks and surprise"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "\"you AC\" instead of \"your AC\" in the text"
+    ],
+    "pdf_page_start": 28,
+    "pdf_page_end": 28
+  },
+  {
+    "name": "Shield of Granite",
+    "type_line": "Armor (shield), rare",
+    "category_raw": "Armor",
+    "subtype_raw": "shield",
+    "rarity_raw": "rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "while wielding this shield",
+    "description": "You gain a +1 bonus to your AC while wielding this shield. The shield is constructed from a single block of granite and enchanted to weigh as much as a typical metal shield of its size. If you are targeted by a spell or ability that would move you against you will, the shield grants you advantage on any saving throw or ability check that would allow you to stay in your position.",
+    "effect_kinds_raw": [
+      "AC bonus",
+      "advantage against forced movement"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "\"against you will\" instead of \"against your will\" in the text"
+    ],
+    "pdf_page_start": 28,
+    "pdf_page_end": 28
+  },
+  {
+    "name": "Shield of the Ebukhosini Gada (Royal Guard)",
+    "type_line": "Armor (shield), very rare (requires attunement)",
+    "category_raw": "Armor",
+    "subtype_raw": "shield",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while wielding this shield",
+    "description": "You gain a +2 bonus to your AC while wielding this shield. Given to the chief's most trusted guards, these shields are considered an elite status symbol by the Zula tribes of the Great Jungle. While wielding the shield, you are able to add the shield's AC bonus (+4) to any Dexterity saving throws you make against a spell or other harmful effect that only targets you.",
+    "effect_kinds_raw": [
+      "AC bonus",
+      "saving throw bonus"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "item name contains a parenthetical translation \"(Royal Guard)\"",
+      "text says the shield's AC bonus is (+4) although the stated bonus is +2"
+    ],
+    "pdf_page_start": 28,
+    "pdf_page_end": 28
+  },
+  {
+    "name": "Spiked Armor",
+    "type_line": "Armor (any medium or heavy armor), rare",
+    "category_raw": "Armor",
+    "subtype_raw": "any medium or heavy armor",
+    "rarity_raw": "rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "while wearing this type of armor",
+    "description": "You gain a +1 bonus to you AC while wearing this type of armor. Magically enchanted spikes can be added to any suit of medium or heavy armor that deal 3d4 piercing damage to any creature who strikes you in melee combat.",
+    "effect_kinds_raw": [
+      "AC bonus",
+      "retaliation damage"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "\"you AC\" instead of \"your AC\" in the text"
+    ],
+    "pdf_page_start": 28,
+    "pdf_page_end": 28
+  },
+  {
+    "name": "War Drum of the Horde",
+    "type_line": "Wondrous item, artifact (requires attunement)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "artifact",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "",
+    "description": "Centuries ago, a great orc horde of immense size boiled out of their mountain holes and began to decimate everything in its path. The first to fall were small mining towns and villages located at the base of the mountains. Those communities fell within hours, and the victories had by the invaders bolstered their frenzy. Using the flayed skin of the deceases villagers, a group of orc priests crafted the war drum and consecrated it to their dark gods.\nWhen the horde marched again, this time against an elven outpost, the war drum could be heard from miles away. The beat of the drum was timed perfectly with the march of the horde, a cacophony of noise that grew louder as they neared. The head chief's son was chosen to wield the drum, and his performance during the battle would empower the orcs to new heights of bloodlust and battle prowess.\nEventually, like most hordes, infighting between clans began to tear at the fragile alliance. In an attempt to steal the drum away from the chief's son, one clan went as far as to enter into a pact with a group of drow renegades that came to the surface to watch the horde destroy their hated kin.\nThe drow slew the chief's son and made off with the drum. They presented it to chief of the clan that allied with them, setting off a internal war between the clans.\n\nWhile the orcs were occupied with themselves, a force of elves and their allies managed to break their ranks. Slaughter on a scale never seen before marked the battlefield. Tens of thousands of dead bodies were left to rot while the surviving clans retreated back to their dark, mountain holes.\nThe drum was lost in the battle, though initial reports state it was seen once again in the possession of the drow. Those reports would later be proven true when decades later, a force of drow marched on the same elven outpost. Bolstered by the beat of the war drum, the drow easily overtook the elven defenders. The small dark elf army moved on, marching to the drum, and sacked six more elven communities before finally being beaten back. The elves confiscated the drum and locked it away in a secure vault.\nThree centuries later, an expert thief would infiltrate the elven vault and pick it clean. The thief, known only as the Shadowmaster, would go on to trade the drum to a polymorphed dragon who would in turn use it as a bargaining chip in its negotiations with the orcs of the mountains. Reunited with the artifact of their people, the orcs agreed to serve the dragon as it made a bid for dominance in the region. Once again, thousands of orcs would rally to the beat of the drum and march on their neighbors. This time, the goodly races were ready for them, and the horde was met by a sizable force of elven and human defenders. The battle would be known as the War of Stomping Boots, after the noise the horde made as it marched to the perfectly timed beats of the drum.\nAfter the battle, the drum was lost, possibly taken by looters or by retreating orc forces. Divinations made to locate the drum have proved inconclusive, possibly due to some type of magical interference surrounding the artifact.\nImmunities. While attuned to the drum, you are considered immune to sonic based magical spells, such as shatter. You are also immune to any spell or magical effect that would attempt to charm you via spoken words. Any friendly creature who can hear the drum being played is considered immune to the frightened condition and they gain advantage against being charmed.\nIncreased Proficiency. The drum grants you a +3 bonus to Charisma (Performance) checks while playing the drum.\nIncreased Movement. Friendly creatures who can hear the drum being played have their base movement speed increased by 60 feet. In addition, they gain advantage against saving throws to resist exhaustion brought on by a forced march and disregard any penalties from moving in difficult terrain.\nRegeneration. Friendly creatures who can hear the drum being played regenerate 2 hit points per turn if they start their turn with at least 1 hit point.\nIncreased Weapon Damage. Friendly creatures who can hear the drum being played gain a +2 bonus to their attack and damage rolls.\n\nIncreased Appetite. While attuned to the drum, you must eat and drink six times the normal amount each day.\nEnergy Leech. When you become attuned to the drum, one of your ability scores is reduced by 2 points (chosen at random). The loss is permanent while you are attuned to the drum.\nDestroying the Drum. The drum can only be destroyed by piercing the drumhead with a weapon that is wielded by one of the elven gods. Once this happens, a magical backlash of energy erupts from the drum, causing 10d20 force damage to anything within 50 feet of the instrument.",
+    "effect_kinds_raw": [
+      "combat buff to allies (implied by lore; no mechanics on this page)"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Body text on this page is entirely lore/history; no mechanical rules text appears before the page break",
+      "Spelling error preserved: \"deceases villagers\"",
+      "Grammar oddities preserved: \"presented it to chief of the clan\" and \"a internal war\"",
+      "Rarity slot of the type line reads \"artifact\" rather than a standard rarity word"
+    ],
+    "pdf_page_start": 29,
+    "pdf_page_end": 31
+  },
+  {
+    "name": "Backpack of Holding",
+    "type_line": "Wondrous item, very rare",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "very rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "",
+    "description": "This backpack has an interior space that is considerably larger than its outside dimensions. The main storage area of the backpack can hold up to 650 pounds, not exceeding a volume of 45 cubic feet. There are three, smaller pouches, one on each sides and one on the back of the bag. Each of these pockets can hold up to 200 pounds, not exceeding 25 cubic feet. The backpack itself weighs 25 pounds, regardless of if it is empty of full to capacity. If the bag is overloaded, pierces, or torn, it ruptures and is destroyed. Its contents are scattered in Astral Plane.\nTurning the bag inside out will dump all of the contents, in all four compartments, harmlessly out. Creatures who require air to breathe can be placed in the main pocket only, and in there they can survive a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they would begin to suffocate.\nPlacing a backpack of holding inside an extradimensional space created by a similar item will instantly destroy both items and open a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked into it and sent to a random location to the Astral Plane.",
+    "effect_kinds_raw": [
+      "extradimensional storage",
+      "destruction on rupture",
+      "planar gate hazard"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [
+      "Astral Plane"
+    ],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "they can survive a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute)"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Typos preserved verbatim: \"one on each sides\", \"empty of full to capacity\", \"If the bag is overloaded, pierces, or torn\", \"scattered in Astral Plane\", \"sent to a random location to the Astral Plane\""
+    ],
+    "pdf_page_start": 32,
+    "pdf_page_end": 32
+  },
+  {
+    "name": "Compass of True North",
+    "type_line": "Wondrous item, rare",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "",
+    "description": "This item can infallibly tell you which way is North on any plane of existence that has a \"north\". The compass has 3 charges. Using your action, you can expend one or more of the charges to cast the following spells: locate animals or plants (1 charge), locate object (1 charge), locate creature (3 charges). The compass regains 1 charge at midnight.",
+    "effect_kinds_raw": [
+      "direction finding",
+      "spellcasting via charges"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [
+      "locate animals or plants",
+      "locate object",
+      "locate creature"
+    ],
+    "limitations_raw": [
+      "The compass regains 1 charge at midnight"
+    ],
+    "charges_text": "The compass has 3 charges. Using your action, you can expend one or more of the charges to cast the following spells: locate animals or plants (1 charge), locate object (1 charge), locate creature (3 charges). The compass regains 1 charge at midnight.",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 32,
+    "pdf_page_end": 32
+  },
+  {
+    "name": "Elixir of the Elements",
+    "type_line": "Potion, rare",
+    "category_raw": "Potion",
+    "subtype_raw": "",
+    "rarity_raw": "rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "",
+    "description": "Drinking this elixir grants you resistance to elemental (acid, cold, fire, lightning, thunder) damage for 10 minutes. In addition, while under the effects of this potion, elemental beings see you as friendly until you do something that would harm them or harm something they care about.",
+    "effect_kinds_raw": [
+      "damage resistance",
+      "charm-like friendliness from elementals"
+    ],
+    "creatures_mentioned": [
+      "elemental beings"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "for 10 minutes",
+      "until you do something that would harm them or harm something they care about"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 32,
+    "pdf_page_end": 32
+  },
+  {
+    "name": "Ever-full Canteen",
+    "type_line": "Wondrous item, uncommon",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "uncommon",
+    "attunement_raw": "",
+    "worn_or_held_raw": "",
+    "description": "This enchanted canteen holds an indefinite supply of whatever liquid is placed into it. If you wish to change the type of liquid it holds, the canteen's cork stopper must be securely placed and its activation word (usually found etched somewhere on the item) must be spoken. After that, the canteen can be emptied of the last bit of whatever liquid was in it, and it is ready to be filled again with a different liquid.",
+    "effect_kinds_raw": [
+      "endless liquid supply",
+      "liquid type swap via command word"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 33,
+    "pdf_page_end": 33
+  },
+  {
+    "name": "Mace of the Tribal Champion",
+    "type_line": "Weapon (mace), rare (requires attunement)",
+    "category_raw": "Weapon",
+    "subtype_raw": "mace",
+    "rarity_raw": "rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while wielding this weapon",
+    "description": "You gain a +1 bonus to attack and damage rolls while wielding this weapon. Using your bonus action, the mace can be made to summon a spectral likeness of one of the totem animals that are carved onto it. The animal is incorporeal and cannot be made to deal physical harm to corporal creatures. It can, however, attack and harm incorporeal creatures. The summoned animal takes its turn on your turn, and you can give it instructions using your bonus action. While it is summoned, you can see and hear everything it can up to a distance of 100 yards. The summoned beast has the same statistics as the animal it's picture depicts, with the notable exception of being incorporeal. No more than two animals can be etched onto the mace, and typically such maces have been found to have a bear, owl, crocodile, axe beak, wolf, or blood hawk depicted on it. The mace can summon a spectral animal once before a short rest and the summoned animal stays for a total of 10 minutes before fading out of existence. You can de-summon the animal using another bonus action. Only one animal can be summoned at one time.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "summon spectral animal",
+      "shared senses with summon"
+    ],
+    "creatures_mentioned": [
+      "bear",
+      "owl",
+      "crocodile",
+      "axe beak",
+      "wolf",
+      "blood hawk"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "once before a short rest",
+      "stays for a total of 10 minutes before fading out of existence",
+      "No more than two animals can be etched onto the mace",
+      "Only one animal can be summoned at one time"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "\"corporal creatures\" appears where \"corporeal creatures\" is likely meant",
+      "\"the animal it's picture depicts\" uses \"it's\" for \"its\""
+    ],
+    "pdf_page_start": 33,
+    "pdf_page_end": 33
+  },
+  {
+    "name": "Potion of Concentrated Pheromones",
+    "type_line": "Potion, very rare",
+    "category_raw": "Potion",
+    "subtype_raw": "",
+    "rarity_raw": "very rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "",
+    "description": "Created from the distilled sweat of nymphs, when you drink this potion, you gain a +2 bonus to your Charisma ability score, as well as advantage on Charisma saving throws and skill checks for 10 minutes. Additionally, during that time, you are able to charm a single humanoid who would normally be considered attracted to your gender/orientation. They are afforded a Wisdom saving throw against a DC 14, but made at a -2 penalty. On a failed save they are considered charmed by you per the charm person spell for the duration of the potion's magic. Once the effect wears off, they are aware they were magically influenced and by whom.",
+    "effect_kinds_raw": [
+      "ability score bonus",
+      "advantage on saves and checks",
+      "charm a humanoid"
+    ],
+    "creatures_mentioned": [
+      "humanoid"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [
+      "charm person"
+    ],
+    "limitations_raw": [
+      "for 10 minutes"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 33,
+    "pdf_page_end": 33
+  },
+  {
+    "name": "Potion of Distilled Spectral Essence",
+    "type_line": "Potion, very rare",
+    "category_raw": "Potion",
+    "subtype_raw": "",
+    "rarity_raw": "very rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "",
+    "description": "After drinking this potion made from the captured essence of ghosts, specters, and other incorporeal beings, you are able to make yourself incorporeal and able to walk through walls, doors, and other solid barriers as if they were difficult terrain. While in this spectral form, you are considered immune to physical damage, however, magic can still effect you. You take damage normally on failed saving throws against spells that deal hit point damage. You cannot deal physical damage to creatures but you can attempt a melee touch attack using your proficiency bonus and dexterity modifier. On a successful strike, a creatures takes 10 (3d6) necrotic damage and must succeed in a DC 10 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. The target dies if this effect reduces its hit point maximum to 0. The potion's magic lasts for 1 minute.",
+    "effect_kinds_raw": [
+      "incorporeal movement",
+      "physical damage immunity",
+      "necrotic touch attack",
+      "hit point maximum reduction"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "The potion's magic lasts for 1 minute."
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Uses \"effect you\" where \"affect you\" is meant, transcribed verbatim",
+      "Grammar error \"a creatures takes\" transcribed verbatim"
+    ],
+    "pdf_page_start": 34,
+    "pdf_page_end": 34
+  },
+  {
+    "name": "Lunar Potion",
+    "type_line": "Potion, very rare",
+    "category_raw": "Potion",
+    "subtype_raw": "",
+    "rarity_raw": "very rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "",
+    "description": "This milky white liquid contains a magical essence that is linked to the phases of the moon. Depending on when the potion is drunk, it can confer different abilities.\nNew Moon. +2 bonus to Wisdom saving throws and ability checks\nWaxing Crescent. +2 bonus to Intelligence saving throws and ability checks\nFirst Quarter. +2 bonus to Charisma saving throws and ability checks\nWaxing Gibbous. +2 bonus to melee and ranged attack rolls\nFull Moon. +2 bonus to AC and Dexterity saving throws\nWaning Gibbous. Deal 2 necrotic damage with every successful melee or ranged attack\nLast Quarter. Automatically stabilize if brought to 0 hit points\nWaning Crescent. Become invisible for the duration of the potion's magic\nThe potion's magic lasts for 10 minutes.",
+    "effect_kinds_raw": [
+      "saving throw and ability check bonuses",
+      "attack roll and AC bonuses",
+      "necrotic damage on attacks",
+      "invisibility"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "The potion's magic lasts for 10 minutes."
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "Variants vary over the phase of the moon when the potion is drunk: New Moon. +2 bonus to Wisdom saving throws and ability checks / Waxing Crescent. +2 bonus to Intelligence saving throws and ability checks / First Quarter. +2 bonus to Charisma saving throws and ability checks / Waxing Gibbous. +2 bonus to melee and ranged attack rolls / Full Moon. +2 bonus to AC and Dexterity saving throws / Waning Gibbous. Deal 2 necrotic damage with every successful melee or ranged attack / Last Quarter. Automatically stabilize if brought to 0 hit points / Waning Crescent. Become invisible for the duration of the potion's magic",
+    "oddities": [
+      "Effect list is a bulleted list with bold-italic moon-phase sub-headings, not a table",
+      "Bullet list indentation is irregular, wrapping around an illustration"
+    ],
+    "pdf_page_start": 34,
+    "pdf_page_end": 34
+  },
+  {
+    "name": "Pouch of False Coins",
+    "type_line": "Wondrous item, varies",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "varies",
+    "attunement_raw": "",
+    "worn_or_held_raw": "",
+    "description": "These pouches are typically made from animal hide and are enchanted to bring forth exact replicas of whichever type of coin the pouch was keyed to at its creation. The coins it produces are indistinguishable from a normal coin; however, they radiate strong conjuration and illusion magic if inspected by spells that would detect such things. The pouch can be made to bring forth a total of 50 coins before it becomes dormant. A long rest is needed before the pouch can be made to produce coins again.\n\nType of Coin: CP, Rarity: Uncommon\nType of Coin: SP, Rarity: Rare\nType of Coin: GP, Rarity: Very Rare\nType of Coin: PP, Rarity: Legendary\nCoins produced by the pouch remain for 7 days, at which time they wink out of existence.",
+    "effect_kinds_raw": [
+      "conjures replica coins"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "a total of 50 coins before it becomes dormant",
+      "A long rest is needed before the pouch can be made to produce coins again."
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Rarity is given as \"varies\" but no variant list or table appears on this page"
+    ],
+    "pdf_page_start": 34,
+    "pdf_page_end": 35
+  },
+  {
+    "name": "Ring of Spreading Maladies",
+    "type_line": "Ring, very rare (requires attunement)",
+    "category_raw": "Ring",
+    "subtype_raw": "",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "While wearing this ring",
+    "description": "While wearing this ring, you are able to transmit a virulent disease with a melee touch attack using your proficiency bonus plus your Dexterity modifier, if any. A successful attack deals 10 (3d6) poison damage and forces the creature to succeed on a DC 13 Constitution saving throw or become poisoned for 1 hour. If the saving throw is failed by more than 5 points, in addition to the above hit point damage and condition, the creature becomes contagious to any other creature that touches them or whom they touch. Transmitting the disease this way forces a DC 13 Constitution saving throw. On a failed save, that creature contracts the poisoned condition for 1 hour and is considered contagious as well. The ring can be made to pass its disease twice before a long rest.",
+    "effect_kinds_raw": [
+      "poison damage on touch attack",
+      "inflicts poisoned condition",
+      "contagious disease spread"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "The ring can be made to pass its disease twice before a long rest."
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 35,
+    "pdf_page_end": 35
+  },
+  {
+    "name": "Ring of Many Uses",
+    "type_line": "Ring, legendary (requires attunement)",
+    "category_raw": "Ring",
+    "subtype_raw": "",
+    "rarity_raw": "legendary",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "",
+    "description": "This simple ring is normally made from silver and constructed with a series of 6 small buttons that you can use your bonus action to press, providing you with certain abilities for the duration of the ring's magic. Upon activation, the button remains pressed and does not reset until a long rest has occurred. Starting from the left, the buttons confer upon you the following abilities:\nButton One. +2 AC for 1 minute\nButton Two. +2 to attack and damage rolls for 1 minute\nButton Three. +2 to ability checks for 1 minute\nButton Four. +2 to saving throws for 1 minute\nButton Five. Resistance to non-magical weapon damage for 1 minute\nButton Six. Resistance to the frightened, charmed, and stunned condition for 1 minute.\nOnly one button can be activated at a time and another can not be pressed down until the duration of the last button's magic is done.",
+    "effect_kinds_raw": [
+      "AC bonus",
+      "attack and damage bonus",
+      "check and save bonus",
+      "damage and condition resistance"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "the button remains pressed and does not reset until a long rest has occurred",
+      "Only one button can be activated at a time and another can not be pressed down until the duration of the last button's magic is done."
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Six bulleted button entries (Button One through Button Six) act as bold sub-headings listing selectable effects; each lasts 1 minute"
+    ],
+    "pdf_page_start": 35,
+    "pdf_page_end": 35
+  },
+  {
+    "name": "Ring of Moods",
+    "type_line": "Ring, rare",
+    "category_raw": "Ring",
+    "subtype_raw": "",
+    "rarity_raw": "rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "While wearing this ring",
+    "description": "While wearing this ring, you can effect the moods of humanoids around you, depending on which color you choose the ring to display. You activate the magic of the ring and choose its color as a bonus action. Creatures within 10 feet of you are afforded a DC 11 Wisdom saving throw when you activate the magic of the ring. On a failed save, they are considered influenced by the ring for 10 minutes as long as they stay within 10 feet of you. On a successful saving throw, they are considered immune to the magic of the ring for 24 hours. Once the ring is used this way, it cannot be used again until a long rest occurs. Creatures do not gain the charmed condition; the ring instead amplifies the chosen emotion to levels that would allow you to properly manipulate them if you should chose to do so.\nBlack: Stressed\nRed: Fear\nYellow: Nervous\nLight Blue: Relaxed\nOrange: Passionate\nPurple: Happy\nGreen: Jealous",
+    "effect_kinds_raw": [
+      "emotion manipulation",
+      "mind influence save-or-suffer"
+    ],
+    "creatures_mentioned": [
+      "humanoids"
+    ],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "Once the ring is used this way, it cannot be used again until a long rest occurs",
+      "influenced by the ring for 10 minutes as long as they stay within 10 feet of you",
+      "immune to the magic of the ring for 24 hours"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "Effect options vary over the color the ring displays: Black - Stressed; Red - Fear; Yellow - Nervous; Light Blue - Relaxed; Orange - Passionate; Purple - Happy; Green - Jealous",
+    "oddities": [
+      "Uses \"effect the moods\" where \"affect\" would be standard",
+      "Uses \"if you should chose\" where \"choose\" would be standard",
+      "Explicitly notes creatures do not gain the charmed condition"
+    ],
+    "pdf_page_start": 36,
+    "pdf_page_end": 36
+  },
+  {
+    "name": "Ring of Persuasion",
+    "type_line": "Ring, very rare (requires attunement)",
+    "category_raw": "Ring",
+    "subtype_raw": "",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "",
+    "description": "These rings are typically made from gold or bronze, with intricate filigree and carvings. The ring has 3 charges. You can use your action to expend one or more of the charges to cast the following spells: charm person (1 charge), calm emotions (2 charges), compulsion (3 charges). The ring regains 1d3 charges at midnight.",
+    "effect_kinds_raw": [
+      "spell casting via charges"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [
+      "charm person",
+      "calm emotions",
+      "compulsion"
+    ],
+    "limitations_raw": [
+      "The ring regains 1d3 charges at midnight"
+    ],
+    "charges_text": "The ring has 3 charges. You can use your action to expend one or more of the charges to cast the following spells: charm person (1 charge), calm emotions (2 charges), compulsion (3 charges). The ring regains 1d3 charges at midnight.",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 36,
+    "pdf_page_end": 36
+  },
+  {
+    "name": "Shovel of Excavation",
+    "type_line": "Wondrous item, very rare",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "very rare",
+    "attunement_raw": "",
+    "worn_or_held_raw": "",
+    "description": "This seemingly innocent looking shovel can be used to move enormous amounts of earth and rock in very little time. Every time the shovel is thrust into dirt, you can excavate up to 200 pounds of soil, rock, and vegetation. The shovel does not effect worked stone or smelted metals. The debris disappears and reappears in a chosen location no more than 100 feet away from the shovel. The shovel can be made to excavate a total of 2000 pounds of earth before it goes dormant. A long rest is needed before the magic of the shovel can be used again.",
+    "effect_kinds_raw": [
+      "excavation",
+      "matter teleportation"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "The shovel can be made to excavate a total of 2000 pounds of earth before it goes dormant",
+      "A long rest is needed before the magic of the shovel can be used again"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Uses \"does not effect worked stone\" where \"affect\" would be standard"
+    ],
+    "pdf_page_start": 36,
+    "pdf_page_end": 36
+  },
+  {
+    "name": "Universal Scroll",
+    "type_line": "Wondrous item, legendary (requires attunement by a bard, cleric, druid, sorcerer, warlock, or wizard)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "legendary",
+    "attunement_raw": "requires attunement by a bard, cleric, druid, sorcerer, warlock, or wizard",
+    "worn_or_held_raw": "in your possession",
+    "description": "This scroll is made of vellum and is always found blank. Once attuned, the scroll can be made to contain a single level 1 through level 7 spell known to you that has a casting time of 10 minutes or less. The spell can henceforth be cast using your action without using any spell slots as long as the scroll is in your possession. Spells cast this way are cast as if they used a spell slot corresponding to its level. Once chosen, the spell cannot be changed while the scroll is attuned to you. The scroll becomes blank when you die.",
+    "effect_kinds_raw": [
+      "spell storage",
+      "casting without spell slots"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "a single level 1 through level 7 spell known to you that has a casting time of 10 minutes or less",
+      "as long as the scroll is in your possession",
+      "Once chosen, the spell cannot be changed while the scroll is attuned to you",
+      "The scroll becomes blank when you die"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [],
+    "pdf_page_start": 37,
+    "pdf_page_end": 37
+  },
+  {
+    "name": "Warhammer of Well Placed Blows",
+    "type_line": "Weapon (warhammer), very rare (requires attunement)",
+    "category_raw": "Weapon",
+    "subtype_raw": "warhammer",
+    "rarity_raw": "very rare",
+    "attunement_raw": "requires attunement",
+    "worn_or_held_raw": "while you wield this weapon",
+    "description": "You gain a +2 bonus to attack and damage rolls while you wield this weapon. In addition to the bonus, the warhammer can be made to sunder non-magical metal armors. Anytime the weapon successful connects with a creature wearing metal armor, a 1d4 is rolled. On a roll of 1, the blow lands as normal and no additional effect is felt. On a roll of 2 - 3, the opponents metal armor is considered sundered, and it loses 2 points of AC permanently. Once a suit of armor is sundered this way, it cannot be made to be sundered again; however, it can be destroyed. On a roll of 4, the opponents metal armor is considered destroyed and no longer offers an AC bonus.",
+    "effect_kinds_raw": [
+      "attack and damage bonus",
+      "armor sundering/destruction"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [
+      "Once a suit of armor is sundered this way, it cannot be made to be sundered again"
+    ],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "typo \"successful connects\" (should be \"successfully\") retained verbatim",
+      "\"opponents\" used without apostrophe throughout"
+    ],
+    "pdf_page_start": 37,
+    "pdf_page_end": 37
+  },
+  {
+    "name": "Amulet of Encasement",
+    "type_line": "Wondrous item, artifact (requires attunement by a cleric, sorcerer, warlock, or wizard)",
+    "category_raw": "Wondrous item",
+    "subtype_raw": "",
+    "rarity_raw": "artifact",
+    "attunement_raw": "requires attunement by a cleric, sorcerer, warlock, or wizard",
+    "worn_or_held_raw": "",
+    "description": "Long ago, before the rise of elf, dwarf, or man; a race of saurian people lived and thrived on the planet. The Syslander, as they called themselves, lived in small villages and townships. A war like species, the Syslander attacked any being that was not of their lands. They defended their territory with brutal efficiency. The most powerful of them were the priests and priestesses of their creator god, Ugvog the Mighty.\nUgvog taught dominance through displays of power. To this end, he taught his clergy a way to preserve the bodies of their foes in an unbreakable amber-like substance. Statues of great beasts, monsters, demons, and fiends soon dominated the Syslander's lands. Silent warnings to those who dare cross over into their boundaries.\nThe spell, which has since been lost to time, was reputed to take a large toll from its caster. Some myths say the spellcaster would trade their own vitality to fuel the spell, reducing them to withered beings. Other tales go on to say the price paid was the life of the spellcaster. To get around the potential deadly side-effect of casting the spell, a group of priests constructed an amulet that would duplicate the magic, at little personal cost to the caster.\n\nPossession of the amulet was given to the most powerful of them, a priestess who was known as Sylan'driddia, roughly translated to Her Most Disagreeableness in Common. With the power of the amulet, she united a number of clans under her leadership and used the amulet to destroy the clans that refused to bow down. Centuries would pass and the power of the amulet would keep Sylan'driddia alive beyond the time one of her species would normally live. Eventually she would be killed by the fiery breath of the ancient red dragon called Ranlammoth the Red Death when he marched his legions of hobgoblin soldiers against the Syslander people. The amulet was tossed in with the rest of the looted riches and Ranlammoth kept the item for another six centuries until his death at the hands of a group of elven paladins who came upon his lair.\nFrom here, the amulet is lost to time for a long while, resurfacing again almost a thousand years later in the hands of a cruel sorcerer near the human city of Brevern. The sorcerer used the powers of the amulet to dominate the city, turning his rivals into amber statues and decorating his palace with them. His death came eighty years later at the hands of Rolondo the Great, a warrior of great renown and prowess.\nThe amulet was lost after that. Some say Rolondo tossed it into the ocean. Others say he traded it to a powerful Tiefling wizard for great riches. Stories of amber statues dotting the landscape crop up from time to time, however, the whereabouts of the amulet are unknown at this time.\nImmunities. While attuned to the amulet, you are immune to the following conditions: charmed, blinded, deafened, stunned, paralyzed, poisoned, frightened.\nImmortal. For as long as you are attuned to the amulet, you do not age. Should the amulet ever be removed from your person, your true age catches up with you, possibly leading to immediate death. You are still able to be killed through violence or other ways that would destroy your body or do great bodily harm.\nFreedom of Movement. The amulet makes you immune to any spell or effect that would restrict your movement. You are also not effected by difficult terrain.\nEncasement. The amulet can be made to shoot a beam of amber light at a creature within 60 feet of you, forcing the creature to make a DC 18 Constitution saving throw. On a failed save, they are fully encased in amber and killed instantly. The amulet can be made to shoot up to eight beams before this power goes dormant for a period of 24 hours.\nNecrotic Damage. Every time the encasement power is used, you suffer 33 (6d10) necrotic damage that can only be healed with rest. This effect is so powerful, it bypasses resistance and immunity to necrotic damage.\nDestroying the Amulet. The only way to destroy the amulet is to attune yourself to it then use its encasement ability on yourself, instantly killing you and destroying the magic of the amulet. If the amulet is ever destroyed, any amber statue it ever created instantly shatters.",
+    "effect_kinds_raw": [
+      "encases creatures in unbreakable amber-like substance"
+    ],
+    "creatures_mentioned": [],
+    "environments_mentioned": [],
+    "spells_mentioned": [],
+    "limitations_raw": [],
+    "charges_text": "",
+    "cursed_text": "",
+    "variant_table_text": "",
+    "oddities": [
+      "Page body on this page is entirely lore/backstory prose; no mechanical rules text appears before the page break",
+      "A full-page illustration of the amulet occupies the top of the page above the item entry",
+      "Semicolon used oddly in 'before the rise of elf, dwarf, or man; a race of saurian people'",
+      "'A war like species' written as two words"
+    ],
+    "pdf_page_start": 38,
+    "pdf_page_end": 39
+  }
+]

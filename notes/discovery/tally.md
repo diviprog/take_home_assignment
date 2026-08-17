@@ -1,0 +1,515 @@
+# Discovery tally
+
+80 items after stitching. Every value below is the source's own wording
+(or, for effect kinds, the model's free labels); counts are item counts.
+
+## category_raw (6 distinct)
+
+-  35 × Wondrous item
+-  21 × Weapon
+-  14 × Armor
+-   5 × Ring
+-   4 × Potion
+-   1 × Wonderous item
+
+## subtype_raw (23 distinct)
+
+-  45 × (empty / not stated)
+-   5 × shield
+-   4 × plate
+-   3 × dagger
+-   2 × Greatsword
+-   2 × Longsword
+-   2 × any axe
+-   2 × any medium or heavy armor
+-   1 × Battleaxe
+-   1 × Dagger
+-   1 × Handaxe
+-   1 × Mace
+-   1 × Rapier
+-   1 × Shortsword
+-   1 × War Pick
+-   1 × Warhammer
+-   1 × any
+-   1 × any sword
+-   1 × half-plate
+-   1 × leather
+-   1 × mace
+-   1 × splint
+-   1 × warhammer
+
+## rarity_raw (6 distinct)
+
+-  29 × very rare
+-  28 × rare
+-   9 × legendary
+-   9 × uncommon
+-   4 × artifact
+-   1 × varies
+
+## attunement_raw (7 distinct)
+
+-  48 × requires attunement
+-  27 × (empty / not stated)
+-   1 × requires attunement by a bard
+-   1 × requires attunement by a bard, cleric, druid, sorcerer, warlock, or wizard
+-   1 × requires attunement by a bard, paladin, ranger, sorcerer, warlock, or wizard
+-   1 × requires attunement by a cleric, sorcerer, warlock, or wizard
+-   1 × requires attunement by an elf
+
+## worn_or_held_raw (35 distinct)
+
+-  32 × (empty / not stated)
+-   4 × While wearing this helm
+-   4 × while wielding this weapon
+-   3 × while wielding this shield
+-   2 × While wearing the mask
+-   2 × While wearing these boots
+-   2 × While wearing this ring
+-   2 × While wielding this shield
+-   2 × while wearing this amulet
+-   2 × while wielding this axe
+-   1 × When you wield this weapon
+-   1 × While the mask is worn and attuned
+-   1 × While wearing the helm
+-   1 × While wearing this amulet
+-   1 × While wearing this armor
+-   1 × While wearing this cloak with its hood up
+-   1 × While wearing this crown
+-   1 × While wearing this gown
+-   1 × While wearing this headband
+-   1 × While wearing this mask
+-   1 × While you hold the drawn sword underwater
+-   1 × While you hold the drawn weapon
+-   1 × in your possession
+-   1 × placing the pipe to your lips
+-   1 × the sword is dropped or sheathed
+-   1 × wear the ring
+-   1 × while wearing the mask
+-   1 × while wearing the suit
+-   1 × while wearing them
+-   1 × while wearing this armor
+-   1 × while wearing this suit of macabre armor
+-   1 × while wearing this suit of plate mail
+-   1 × while wearing this type of armor
+-   1 × while you wear this amulet
+-   1 × while you wield this weapon
+
+## effect_kinds_raw (147 distinct)
+
+-  21 × attack and damage bonus
+-  10 × AC bonus
+-   7 × damage resistance
+-   4 × damage immunity
+-   3 × movement speed increase
+-   2 × (empty / not stated)
+-   2 × advantage on saves and checks
+-   2 × armor class bonus
+-   2 × forced reaction use
+-   2 × healing
+-   2 × light emission
+-   2 × mind domination of a creature
+-   2 × saving throw advantage
+-   2 × saving throw bonus
+-   2 × spell casting via charges
+-   2 × spellcasting
+-   2 × total control of target's actions
+-   1 × AC and ability score boost
+-   1 × AC increase
+-   1 × AC reduction on chosen creature type
+-   1 × ability score bonus
+-   1 × ability score increase
+-   1 × advantage against forced movement
+-   1 × aerial vision
+-   1 × alarm while sleeping
+-   1 × animal shapeshifting
+-   1 × armor sundering/destruction
+-   1 × at-will cantrip casting
+-   1 × attack bonus
+-   1 × attack roll and AC bonuses
+-   1 × attack roll penalty on target
+-   1 × auto-stabilize and healing at 0 hit points
+-   1 × bleed damage over time
+-   1 × bonus action extra damage
+-   1 × bonus critical strike damage
+-   1 × bonus damage against creature types
+-   1 × bonus melee attack
+-   1 × bonus movement after kill
+-   1 × bonus slashing damage
+-   1 × bonus to Bardic Inspiration rolls
+-   1 × cantrip casting
+-   1 × casting without spell slots
+-   1 × chance to negate critical strike damage
+-   1 × charm a humanoid
+-   1 × charm immunity
+-   1 × charm on failed save
+-   1 × charm-like friendliness from elementals
+-   1 × check and save bonus
+-   1 × cold damage bonus
+-   1 × combat awareness
+-   1 × combat buff to allies (implied by lore; no mechanics on this page)
+-   1 × condition immunity
+-   1 × conjure equipment
+-   1 × conjures replica coins
+-   1 × construct detection
+-   1 × contagious disease spread
+-   1 × control over undead
+-   1 × counts as magical
+-   1 × curse immunity
+-   1 × curse suppression
+-   1 × damage and condition resistance
+-   1 × damage reflection on critical hits
+-   1 × delayed recurring damage
+-   1 × delayed shrapnel damage
+-   1 × destruction on rupture
+-   1 × direction finding
+-   1 × disguise
+-   1 × double damage vs constructs
+-   1 × emotion manipulation
+-   1 × emotion manipulation on others
+-   1 × encases creatures in unbreakable amber-like substance
+-   1 × endless liquid supply
+-   1 × enemy escape penalty
+-   1 × escalating attack bonuses
+-   1 × excavation
+-   1 × extended breath holding
+-   1 × extra attack or damage resistance
+-   1 × extra damage vs creature types
+-   1 × extra necrotic damage
+-   1 × extra opportunity attacks
+-   1 × extradimensional storage
+-   1 × fear on others
+-   1 × footstep sound control
+-   1 × forced fleeing on failed save
+-   1 × forced reroll
+-   1 × hinders others' perception
+-   1 × hit point maximum reduction
+-   1 × immunity to sneak attacks and surprise
+-   1 × impose disadvantage on nearby creatures' rolls
+-   1 × incorporeal movement
+-   1 × inflicts poisoned condition
+-   1 × invisibility
+-   1 × issuing orders to controlled creatures
+-   1 × liquid type swap via command word
+-   1 × matter teleportation
+-   1 × mind influence save-or-suffer
+-   1 × miss chance and attack redirection
+-   1 × necrotic damage on attacks
+-   1 × necrotic touch attack
+-   1 × penalty on reroll
+-   1 × petrification cure and immunity
+-   1 × physical damage immunity
+-   1 × piercing damage attack
+-   1 × planar gate hazard
+-   1 × poison absorption and storage
+-   1 × poison damage on touch attack
+-   1 × poison discharge on critical hit
+-   1 × prevents nonmagical healing
+-   1 × protection from gaze attacks
+-   1 × radiant damage on grapple
+-   1 × ranged auto-hit throw
+-   1 × reduces effective enemy armor
+-   1 × remote scrying sensor
+-   1 × retaliation damage
+-   1 × retaliation damage on attackers
+-   1 × save advantage vs conditions
+-   1 × saving throw and ability check bonuses
+-   1 × saving throw and check advantage
+-   1 × saving throw and check bonus
+-   1 × self-resizing
+-   1 × shadow-form movement
+-   1 × shape change
+-   1 × shared senses with summon
+-   1 × skill check advantage
+-   1 × skill check bonuses
+-   1 × slow falling
+-   1 × social/reaction benefit
+-   1 × speed increase
+-   1 × spell absorption
+-   1 × spell storage
+-   1 × spellcasting via charges
+-   1 × spike growth on command
+-   1 × stealth bonus
+-   1 × summon creature
+-   1 × summon spectral animal
+-   1 × swim speed increase
+-   1 × teleportation
+-   1 × temporary AC bonus
+-   1 × temporary damage immunity
+-   1 × temporary items
+-   1 × toggleable blade effect
+-   1 × track concealment
+-   1 × tripled critical damage
+-   1 × unimpeded underwater movement
+-   1 × unremovable until curse lifted
+-   1 × water breathing
+-   1 × weapon proficiency
+
+## creatures_mentioned (43 distinct)
+
+-  60 × (empty / not stated)
+-   2 × beings from the Elemental Plane of Air
+-   2 × blood hawk
+-   2 × crocodile
+-   2 × fiend
+-   2 × fiends
+-   2 × undead
+-   2 × wolf
+-   1 × Adult
+-   1 × Ancient
+-   1 × Archdevils
+-   1 × Barlgura demons
+-   1 × Greater Devils
+-   1 × Lemure
+-   1 × Lesser Devils
+-   1 × Undead creatures with a CR of 5 or above
+-   1 × Wyrmling
+-   1 × Young
+-   1 × air elemental
+-   1 × any creature who is at least one size category smaller than you
+-   1 × axe beak
+-   1 × bear
+-   1 × boar
+-   1 × bronze dragon
+-   1 × brown bear
+-   1 × construct
+-   1 × constructs
+-   1 × elemental beings
+-   1 × elf
+-   1 × fey
+-   1 × fiend (devil)
+-   1 × humanoid
+-   1 × humanoids
+-   1 × hydra
+-   1 × killer whale
+-   1 × medusa
+-   1 × owl
+-   1 × panther
+-   1 × reef shark
+-   1 × saber-toothed tiger
+-   1 × undead creatures
+-   1 × vampire
+-   1 × vampires
+
+## environments_mentioned (7 distinct)
+
+-  74 × (empty / not stated)
+-   2 × Elemental Plane of Air
+-   1 × Astral Plane
+-   1 × any terrain
+-   1 × underwater
+-   1 × water
+-   1 × wooded environment
+
+## spells_mentioned (19 distinct)
+
+-  68 × (empty / not stated)
+-   3 × charm person
+-   2 × locate creature
+-   2 × locate object
+-   1 × alarm
+-   1 × calm emotions
+-   1 × command
+-   1 × compulsion
+-   1 × disguise self
+-   1 × eyebite
+-   1 × feather fall
+-   1 × guidance
+-   1 × legend lore
+-   1 × locate animals or plants
+-   1 × mending
+-   1 × prestidigitation
+-   1 × remove curse
+-   1 × resistance
+-   1 × spare the dying
+
+## limitations_raw (96 distinct)
+
+-  23 × (empty / not stated)
+-   2 × For the next hour
+-   2 × Once per day
+-   2 × for 10 minutes
+-   2 × regains 1d3 charges at midnight
+-   1 × A Wisdom saving throw against a DC13 is allowed to resist the effect
+-   1 × A Wisdom saving throw is allowed against a DC11 to resist the effect
+-   1 × A long rest is needed before the magic of the shovel can be used again
+-   1 × A long rest is needed before the pouch can be made to produce coins again.
+-   1 × A period of 240 hours must pass before it can be used again
+-   1 × A save is required anytime you use the Attack action while wearing the suit.
+-   1 × A short rest is needed to be able to attune the axe to another creature type
+-   1 × A successful save makes the creature immune to the shield's magic for 24 hours
+-   1 × Attunement to a creature type lasts for 1 minute
+-   1 × Creatures cannot suffer the additional damage from a razor of lasting wounds more than once in a single encounter
+-   1 × If you do not perform a critical strike within the time allotted, the magical energy is released harmlessly after the time has run out
+-   1 × No more than two animals can be etched onto the mace
+-   1 × Once a suit of armor is sundered this way, it cannot be made to be sundered again
+-   1 × Once an ability is activated, another ability cannot be activated until you have finished a short or long rest.
+-   1 × Once chosen, the spell cannot be changed while the scroll is attuned to you
+-   1 × Once the ring is used this way, it cannot be used again until a long rest occurs
+-   1 × Only one animal can be summoned at one time
+-   1 × Only one button can be activated at a time and another can not be pressed down until the duration of the last button's magic is done.
+-   1 × Pieces dislodged this way reform on the weapon after 24 hours
+-   1 × The amulet needs at least 8 hours before it can be used to control undead creatures again after its use
+-   1 × The amulet regains 1d3 charges at midnight
+-   1 × The arms and armor created by the chest last for 72 hours
+-   1 × The axe can only hold one spell at a time
+-   1 × The chest can be used a total of 50 times before its magic is exhausted
+-   1 × The compass regains 1 charge at midnight
+-   1 × The creature must be within 30 feet and in your line of sight
+-   1 × The creatures stay under your manipulation for 1 + 1d6 hours
+-   1 × The flames last until you use another bonus action to speak the command word again, or the sword is dropped or sheathed.
+-   1 × The hammer can only split if there are at least 4 constructs within your line of sight
+-   1 × The necklace has 3 charges
+-   1 × The potion's magic lasts for 1 minute.
+-   1 × The potion's magic lasts for 10 minutes.
+-   1 × The ring can be made to pass its disease twice before a long rest.
+-   1 × The ring regains 1d3 charges at midnight
+-   1 × The scroll becomes blank when you die
+-   1 × The shovel can be made to excavate a total of 2000 pounds of earth before it goes dormant
+-   1 × The spell ends if the gown is removed.
+-   1 × The spikes remain elongated for 4 rounds
+-   1 × The weapon stores the toxin for 24 hours
+-   1 × The weapon’s ability can be used three times a day.
+-   1 × This ability can be used once before a short or long rest.
+-   1 × This ability cannot be used again until 24 hours have passed since its previous use.
+-   1 × Twice per day
+-   1 × Undead creatures with a CR of 5 or above are immune to the powers of this amulet
+-   1 × When you wield this weapon and are fully immersed in water, its special properties come to life.
+-   1 × You can use this ability once a day.
+-   1 × You cannot summon forth another elemental until 24 hours pass from its last activation
+-   1 × You gain no bonus if the target is not wearing armor or not using a shield.
+-   1 × You may elongate the spikes twice before a short or long rest
+-   1 × a number of minutes equal to your proficiency bonus
+-   1 × a single level 1 through level 7 spell known to you that has a casting time of 10 minutes or less
+-   1 × a total of 50 coins before it becomes dormant
+-   1 × a total of three times before a long rest
+-   1 × against any spell cast against you by a fiend
+-   1 × any creature who can meet your gaze
+-   1 × as long as the scroll is in your possession
+-   1 × as long as there is ample sunshine and rich soil
+-   1 × cannot be used again until you finish a long rest
+-   1 × cannot function more than once in a 12 hour period
+-   1 × for 1 minute
+-   1 × for 4 rounds
+-   1 × for a total of 10 minutes
+-   1 × for one turn
+-   1 × for the next three rounds
+-   1 × if 24 hours pass without the weapon expending the toxin, it is rendered inert and escapes the weapon's hilt as a faint mist
+-   1 × immune to the magic of the amulet for 24 hours
+-   1 × immune to the magic of the ring for 24 hours
+-   1 × influenced by the ring for 10 minutes as long as they stay within 10 feet of you
+-   1 × lasts for up to one hour
+-   1 × must be declared by you after you are struck with a critical strike
+-   1 × must declare your intent to use the magic of the helm before the roll is made
+-   1 × once before a long rest
+-   1 × once before a short or long rest
+-   1 × once before a short rest
+-   1 × stays for a total of 10 minutes before fading out of existence
+-   1 × the amulet does not cure you of the affliction
+-   1 × the button remains pressed and does not reset until a long rest has occurred
+-   1 × the magical energy his held for 1 hour
+-   1 × they can survive a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute)
+-   1 × three times a day
+-   1 × three times per day
+-   1 × until you do something that would harm them or harm something they care about
+-   1 × useable once before finishing a long rest
+-   1 × useable twice per day
+-   1 × when targeted by a fiend
+-   1 × while airborne
+-   1 × while wearing this amulet
+-   1 × within 60 feet of its activation
+-   1 × within 60 feet of your position and in your line of sight
+-   1 × you can control a total of 22 HD worth of undead creatures at one time
+-   1 × you can hold your breath for up to one hour
+
+## charges_text (presence) (2 distinct)
+
+-  74 × (empty / not stated)
+-   6 × present
+
+## cursed_text (presence) (2 distinct)
+
+-  79 × (empty / not stated)
+-   1 × present
+
+## variant_table_text (presence) (2 distinct)
+
+-  77 × (empty / not stated)
+-   3 × present
+
+## oddities (74 distinct)
+
+-  31 × (empty / not stated)
+-   2 × "you AC" instead of "your AC" in the text
+-   1 × "1 AC less then normal" — "then" used where "than" is expected, preserved verbatim
+-   1 × "DC11" written without a space
+-   1 × "DC14" written without a space
+-   1 × "against you will" instead of "against your will" in the text
+-   1 × "at a disadvantage" and "a DC13" are odd phrasings kept verbatim
+-   1 × "bight light" appears to be a typo for "bright light", transcribed verbatim
+-   1 × "corporal creatures" appears where "corporeal creatures" is likely meant
+-   1 × "it takes you action to do so" — likely typo for "your action", transcribed verbatim
+-   1 × "opponents" used without apostrophe throughout
+-   1 × "the animal it's picture depicts" uses "it's" for "its"
+-   1 × "useable" spelling retained verbatim
+-   1 × 'A war like species' written as two words
+-   1 × A full-page illustration of the amulet occupies the top of the page above the item entry
+-   1 × Body is a single sentence with no description of the caltrops themselves
+-   1 × Body text on this page is entirely lore/history; no mechanical rules text appears before the page break
+-   1 × Body text uses plural phrasing ("Armors enchanted this way") describing an enchantment rather than a single item
+-   1 × Bullet list indentation is irregular, wrapping around an illustration
+-   1 × Category misspelled as "Wonderous item"
+-   1 × Curse designation "(Cursed)" appears in the title itself rather than as a sub-heading
+-   1 × Effect list is a bulleted list with bold-italic moon-phase sub-headings, not a table
+-   1 × Embedded saving-throw-modifier table varying by devil rank (Lemure/Lesser Devils/Greater Devils/Archdevils), with Archdevils listed as Immune
+-   1 × Embedded saving-throw-modifier table varying by dragon age category (Wyrmling/Young/Adult/Ancient), rendered as bold-label lines rather than a ruled table
+-   1 × Explicitly notes creatures do not gain the charmed condition
+-   1 × Flavor text names the Aarakocra archmage Ferrantou the Lofty Flyer as the crafter
+-   1 × Grammar as printed: "a evergreen tree"
+-   1 × Grammar error "a creatures takes" transcribed verbatim
+-   1 × Grammar oddities preserved: "presented it to chief of the clan" and "a internal war"
+-   1 × Grammatical error in source retained verbatim: "or is the creature is the recipient of healing magic"
+-   1 × Grammatical error preserved: "Vampires receives a -2"
+-   1 × Grammatical error preserved: "by using an bonus action"
+-   1 × Large full-width illustration of the ring occupies the top half of the page above the item title.
+-   1 × Light radius given as "40 foot radius" rather than the conventional "40-foot radius"
+-   1 × Odd phrasing in source retained verbatim: "seems to slightly bend the light surround it"
+-   1 × Odd phrasing in source retained verbatim: "your form is wavered"
+-   1 × Odd phrasing: "Following the uttering its activation word"
+-   1 × Odd phrasing: "Wisdom (Perception) checks made to see you have disadvantage" (apparent missing word, transcribed verbatim)
+-   1 × Page body on this page is entirely lore/backstory prose; no mechanical rules text appears before the page break
+-   1 × Page contains only origin/lore prose for this item; no mechanical effect text appears before the page break, so effect_kinds_raw is empty.
+-   1 × Page is mostly full-page artwork with only one short item
+-   1 × Rarity is given as "varies" but no variant list or table appears on this page
+-   1 × Rarity slot of the type line reads "artifact" rather than a standard rarity word
+-   1 × Semicolon used oddly in 'before the rise of elf, dwarf, or man; a race of saurian people'
+-   1 × Six bulleted button entries (Button One through Button Six) act as bold sub-headings listing selectable effects; each lasts 1 minute
+-   1 × Source writes "the greater it's chance" (it's for its), kept verbatim
+-   1 × Spelling error preserved: "deceases villagers"
+-   1 × Subtype "Dagger" is capitalized unlike the lowercase convention
+-   1 × Subtype "Greatsword" is capitalized unlike the lowercase convention
+-   1 × Subtype capitalized as "War Pick" in the type line
+-   1 × Text opens with "In addition to the properties listed below" but the abilities are listed below, not properties
+-   1 × Text says "Once again, you provoke no opportunity attack by moving this way" though the first move also did not provoke — phrasing kept verbatim
+-   1 × The text spells the condition inconsistently: "petrifaction" in one sentence and "petrifying"/"petrified" elsewhere.
+-   1 × Title is printed in bold title case rather than the small caps used by the other items on this page
+-   1 × Title spelled "Quatermaster's" rather than "Quartermaster's"
+-   1 × Typo in source: "the magical energy his held for 1 hour" (his for is)
+-   1 × Typos preserved verbatim: "one on each sides", "empty of full to capacity", "If the bag is overloaded, pierces, or torn", "scattered in Astral Plane", "sent to a random location to the Astral Plane"
+-   1 × Uses "does not effect worked stone" where "affect" would be standard
+-   1 × Uses "effect the moods" where "affect" would be standard
+-   1 × Uses "effect you" where "affect you" is meant, transcribed verbatim
+-   1 × Uses "if you should chose" where "choose" would be standard
+-   1 × Uses the word "attune" for its own creature-type mechanic, distinct from the item attunement in the type line
+-   1 × color-to-emotion list uses bold color names rather than a ruled table
+-   1 × dire badger appears only in flavor text about the mask's origin, not in mechanics
+-   1 × item name contains a parenthetical translation "(Royal Guard)"
+-   1 × only flavor/backstory text appears on this page; no mechanical effects are given before the page break
+-   1 × references the Wild Shape ability for transformation rules
+-   1 × restriction that beads can only contain cantrips found on the cleric spell list
+-   1 × says "advantage to saving throws" rather than the usual "advantage on saving throws"
+-   1 × spelling "useable"
+-   1 × text says the shield's AC bonus is (+4) although the stated bonus is +2
+-   1 × typo "successful connects" (should be "successfully") retained verbatim
+-   1 × uses "critical strike" rather than the standard "critical hit"
+-   1 × uses "effect" and "effected" where "affect"/"affected" is meant

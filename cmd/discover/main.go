@@ -38,6 +38,7 @@ func main() {
 	dpi := flag.Int("dpi", 150, "render resolution")
 	workers := flag.Int("workers", 4, "concurrent API calls")
 	refresh := flag.Bool("refresh", false, "ignore the response cache and re-call the API")
+	backend := flag.String("backend", "cli", "how to reach the model: cli (local claude login / subscription) or api (metered ANTHROPIC_API_KEY)")
 	flag.Parse()
 
 	first, last, err := parseRange(*pagesFlag)
@@ -53,7 +54,7 @@ func main() {
 	}
 	fmt.Printf("rendered pages %d-%d\n", first, last)
 
-	ex, err := discovery.NewExtractor(filepath.Join("cache", "discovery"))
+	ex, err := discovery.NewExtractor(filepath.Join("cache", "discovery"), *backend)
 	if err != nil {
 		fatal("extractor: %v", err)
 	}
@@ -103,7 +104,7 @@ func main() {
 		} else {
 			apiCount++
 		}
-		src := "api"
+		src := "live"
 		if r.cached {
 			src = "cache"
 		}
@@ -131,7 +132,7 @@ func main() {
 
 	// Reconciliation: every page and every warning accounted for, nothing
 	// silently dropped.
-	fmt.Printf("\n%d pages processed (%d cached, %d api), %d failed\n",
+	fmt.Printf("\n%d pages processed (%d cached, %d live), %d failed\n",
 		len(pages), cachedCount, apiCount, len(failed))
 	fmt.Printf("%d items after stitching -> %s\n", len(items), filepath.Join(outDir, "items.json"))
 	fmt.Printf("tally -> %s\n", filepath.Join(outDir, "tally.md"))
