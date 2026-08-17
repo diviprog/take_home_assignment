@@ -2,6 +2,10 @@
 /bin/
 *.exe
 
+# Discovery-pass local cache (rendered pages + raw API responses); the
+# stitched items.json and tally.md in notes/ are the committed artifacts
+/cache/
+
 # Local env / secrets
 .env
 .env.local
