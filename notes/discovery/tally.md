@@ -95,14 +95,13 @@
 -   1 × while you wear this amulet
 -   1 × while you wield this weapon
 
-## effect_kinds_raw (147 distinct)
+## effect_kinds_raw (167 distinct)
 
--  21 × attack and damage bonus
+-  22 × attack and damage bonus
 -  10 × AC bonus
 -   7 × damage resistance
 -   4 × damage immunity
--   3 × movement speed increase
--   2 × (empty / not stated)
+-   4 × movement speed increase
 -   2 × advantage on saves and checks
 -   2 × armor class bonus
 -   2 × forced reaction use
@@ -114,12 +113,15 @@
 -   2 × spell casting via charges
 -   2 × spellcasting
 -   2 × total control of target's actions
+-   1 × AC and ability score bonuses
 -   1 × AC and ability score boost
 -   1 × AC increase
 -   1 × AC reduction on chosen creature type
 -   1 × ability score bonus
 -   1 × ability score increase
+-   1 × ability score increases plus automatic elf friendliness
 -   1 × advantage against forced movement
+-   1 × advantage on Strength/Dexterity saves and checks
 -   1 × aerial vision
 -   1 × alarm while sleeping
 -   1 × animal shapeshifting
@@ -128,6 +130,7 @@
 -   1 × attack bonus
 -   1 × attack roll and AC bonuses
 -   1 × attack roll penalty on target
+-   1 × auto-hit / auto-succeed and innate spellcasting
 -   1 × auto-stabilize and healing at 0 hit points
 -   1 × bleed damage over time
 -   1 × bonus action extra damage
@@ -147,7 +150,7 @@
 -   1 × check and save bonus
 -   1 × cold damage bonus
 -   1 × combat awareness
--   1 × combat buff to allies (implied by lore; no mechanics on this page)
+-   1 × condition immunities
 -   1 × condition immunity
 -   1 × conjure equipment
 -   1 × conjures replica coins
@@ -158,18 +161,20 @@
 -   1 × curse immunity
 -   1 × curse suppression
 -   1 × damage and condition resistance
+-   1 × damage immunity (fire and cold)
 -   1 × damage reflection on critical hits
 -   1 × delayed recurring damage
 -   1 × delayed shrapnel damage
 -   1 × destruction on rupture
+-   1 × detectable magical aura on produced coins
 -   1 × direction finding
 -   1 × disguise
 -   1 × double damage vs constructs
 -   1 × emotion manipulation
 -   1 × emotion manipulation on others
--   1 × encases creatures in unbreakable amber-like substance
 -   1 × endless liquid supply
 -   1 × enemy escape penalty
+-   1 × enhanced senses (darkvision and truesight)
 -   1 × escalating attack bonuses
 -   1 × excavation
 -   1 × extended breath holding
@@ -179,12 +184,17 @@
 -   1 × extra opportunity attacks
 -   1 × extradimensional storage
 -   1 × fear on others
+-   1 × fear/charm protection for allies
 -   1 × footstep sound control
 -   1 × forced fleeing on failed save
 -   1 × forced reroll
+-   1 × heightened senses (perception advantage, cannot be flanked or surprised)
 -   1 × hinders others' perception
 -   1 × hit point maximum reduction
+-   1 × immunity to movement restriction
+-   1 × immunity to multiple conditions
 -   1 × immunity to sneak attacks and surprise
+-   1 × immunity to sonic and charm magic
 -   1 × impose disadvantage on nearby creatures' rolls
 -   1 × incorporeal movement
 -   1 × inflicts poisoned condition
@@ -194,8 +204,10 @@
 -   1 × matter teleportation
 -   1 × mind influence save-or-suffer
 -   1 × miss chance and attack redirection
+-   1 × movement enhancement (jump at will, +30 ft speed, limited flight)
 -   1 × necrotic damage on attacks
 -   1 × necrotic touch attack
+-   1 × no aging while attuned
 -   1 × penalty on reroll
 -   1 × petrification cure and immunity
 -   1 × physical damage immunity
@@ -209,24 +221,31 @@
 -   1 × radiant damage on grapple
 -   1 × ranged auto-hit throw
 -   1 × reduces effective enemy armor
+-   1 × regeneration and limb regrowth
+-   1 × regeneration for allies
 -   1 × remote scrying sensor
+-   1 × resistance to weapon damage
 -   1 × retaliation damage
 -   1 × retaliation damage on attackers
 -   1 × save advantage vs conditions
+-   1 × save-or-die encasement beam
 -   1 × saving throw and ability check bonuses
 -   1 × saving throw and check advantage
 -   1 × saving throw and check bonus
+-   1 × self-inflicted necrotic damage on use
 -   1 × self-resizing
 -   1 × shadow-form movement
 -   1 × shape change
 -   1 × shared senses with summon
 -   1 × skill check advantage
+-   1 × skill check bonus
 -   1 × skill check bonuses
 -   1 × slow falling
 -   1 × social/reaction benefit
 -   1 × speed increase
 -   1 × spell absorption
 -   1 × spell storage
+-   1 × spellcasting and summoning warriors
 -   1 × spellcasting via charges
 -   1 × spike growth on command
 -   1 × stealth bonus
@@ -236,6 +255,7 @@
 -   1 × teleportation
 -   1 × temporary AC bonus
 -   1 × temporary damage immunity
+-   1 × temporary illusory currency that vanishes
 -   1 × temporary items
 -   1 × toggleable blade effect
 -   1 × track concealment
@@ -245,9 +265,9 @@
 -   1 × water breathing
 -   1 × weapon proficiency
 
-## creatures_mentioned (43 distinct)
+## creatures_mentioned (47 distinct)
 
--  60 × (empty / not stated)
+-  59 × (empty / not stated)
 -   2 × beings from the Elemental Plane of Air
 -   2 × blood hawk
 -   2 × crocodile
@@ -274,14 +294,18 @@
 -   1 × brown bear
 -   1 × construct
 -   1 × constructs
+-   1 × demon goddess Lloth
 -   1 × elemental beings
--   1 × elf
+-   1 × elven gods
+-   1 × elven warriors
+-   1 × elves
 -   1 × fey
 -   1 × fiend (devil)
 -   1 × humanoid
 -   1 × humanoids
 -   1 × hydra
 -   1 × killer whale
+-   1 × knight
 -   1 × medusa
 -   1 × owl
 -   1 × panther
@@ -291,45 +315,57 @@
 -   1 × vampire
 -   1 × vampires
 
-## environments_mentioned (7 distinct)
+## environments_mentioned (9 distinct)
 
--  74 × (empty / not stated)
+-  71 × (empty / not stated)
 -   2 × Elemental Plane of Air
+-   2 × difficult terrain
 -   1 × Astral Plane
 -   1 × any terrain
+-   1 × the Abyss
 -   1 × underwater
 -   1 × water
 -   1 × wooded environment
 
-## spells_mentioned (19 distinct)
+## spells_mentioned (28 distinct)
 
--  68 × (empty / not stated)
+-  65 × (empty / not stated)
 -   3 × charm person
 -   2 × locate creature
 -   2 × locate object
 -   1 × alarm
 -   1 × calm emotions
+-   1 × color spray
 -   1 × command
 -   1 × compulsion
+-   1 × creation
 -   1 × disguise self
 -   1 × eyebite
 -   1 × feather fall
 -   1 × guidance
+-   1 × hallucinatory terrain
+-   1 × jump
 -   1 × legend lore
 -   1 × locate animals or plants
+-   1 × melf's acid arrow
 -   1 × mending
+-   1 × passwall
 -   1 × prestidigitation
 -   1 × remove curse
 -   1 × resistance
+-   1 × shatter
 -   1 × spare the dying
+-   1 × stone shape
+-   1 × telekinesis
 
-## limitations_raw (96 distinct)
+## limitations_raw (116 distinct)
 
--  23 × (empty / not stated)
+-  19 × (empty / not stated)
 -   2 × For the next hour
 -   2 × Once per day
 -   2 × for 10 minutes
 -   2 × regains 1d3 charges at midnight
+-   2 × requires attunement
 -   1 × A Wisdom saving throw against a DC13 is allowed to resist the effect
 -   1 × A Wisdom saving throw is allowed against a DC11 to resist the effect
 -   1 × A long rest is needed before the magic of the shovel can be used again
@@ -338,7 +374,9 @@
 -   1 × A save is required anytime you use the Attack action while wearing the suit.
 -   1 × A short rest is needed to be able to attune the axe to another creature type
 -   1 × A successful save makes the creature immune to the shield's magic for 24 hours
+-   1 × All of the suit's functions and abilities, with the exception of its increase in AC and ability scores, only work after the suit is attuned.
 -   1 × Attunement to a creature type lasts for 1 minute
+-   1 × Coins produced by the pouch remain for 7 days, at which time they wink out of existence.
 -   1 × Creatures cannot suffer the additional damage from a razor of lasting wounds more than once in a single encounter
 -   1 × If you do not perform a critical strike within the time allotted, the magical energy is released harmlessly after the time has run out
 -   1 × No more than two animals can be etched onto the mace
@@ -349,6 +387,8 @@
 -   1 × Only one animal can be summoned at one time
 -   1 × Only one button can be activated at a time and another can not be pressed down until the duration of the last button's magic is done.
 -   1 × Pieces dislodged this way reform on the weapon after 24 hours
+-   1 × Spells cast from the ring are cast using a spell slot that corresponds with the spell's level.
+-   1 × The amulet can be made to shoot up to eight beams before this power goes dormant for a period of 24 hours
 -   1 × The amulet needs at least 8 hours before it can be used to control undead creatures again after its use
 -   1 × The amulet regains 1d3 charges at midnight
 -   1 × The arms and armor created by the chest last for 72 hours
@@ -362,12 +402,14 @@
 -   1 × The necklace has 3 charges
 -   1 × The potion's magic lasts for 1 minute.
 -   1 × The potion's magic lasts for 10 minutes.
+-   1 × The pouch can be made to bring forth a total of 50 coins before it becomes dormant.
 -   1 × The ring can be made to pass its disease twice before a long rest.
 -   1 × The ring regains 1d3 charges at midnight
 -   1 × The scroll becomes blank when you die
 -   1 × The shovel can be made to excavate a total of 2000 pounds of earth before it goes dormant
 -   1 × The spell ends if the gown is removed.
 -   1 × The spikes remain elongated for 4 rounds
+-   1 × The suit will only attune with someone of good (LG, NG, CG) alignment.
 -   1 × The weapon stores the toxin for 24 hours
 -   1 × The weapon’s ability can be used three times a day.
 -   1 × This ability can be used once before a short or long rest.
@@ -375,13 +417,16 @@
 -   1 × Twice per day
 -   1 × Undead creatures with a CR of 5 or above are immune to the powers of this amulet
 -   1 × When you wield this weapon and are fully immersed in water, its special properties come to life.
+-   1 × While attuned to the drum
+-   1 × You can regrow lost limbs and appendages in 24 hours.
+-   1 × You can sustain this flight for up to 8 rounds.
 -   1 × You can use this ability once a day.
 -   1 × You cannot summon forth another elemental until 24 hours pass from its last activation
 -   1 × You gain no bonus if the target is not wearing armor or not using a shield.
 -   1 × You may elongate the spikes twice before a short or long rest
+-   1 × You may not use this feature again until 24 hours have passed since its last use.
 -   1 × a number of minutes equal to your proficiency bonus
 -   1 × a single level 1 through level 7 spell known to you that has a casting time of 10 minutes or less
--   1 × a total of 50 coins before it becomes dormant
 -   1 × a total of three times before a long rest
 -   1 × against any spell cast against you by a fiend
 -   1 × any creature who can meet your gaze
@@ -395,6 +440,8 @@
 -   1 × for one turn
 -   1 × for the next three rounds
 -   1 × if 24 hours pass without the weapon expending the toxin, it is rendered inert and escapes the weapon's hilt as a faint mist
+-   1 × if they start their turn with at least 1 hit point
+-   1 × if you start your turn with at least 1 hit point
 -   1 × immune to the magic of the amulet for 24 hours
 -   1 × immune to the magic of the ring for 24 hours
 -   1 × influenced by the ring for 10 minutes as long as they stay within 10 feet of you
@@ -404,40 +451,48 @@
 -   1 × once before a long rest
 -   1 × once before a short or long rest
 -   1 × once before a short rest
+-   1 × requires attunement by a cleric, sorcerer, warlock, or wizard
+-   1 × requires attunement by an elf
 -   1 × stays for a total of 10 minutes before fading out of existence
 -   1 × the amulet does not cure you of the affliction
 -   1 × the button remains pressed and does not reset until a long rest has occurred
 -   1 × the magical energy his held for 1 hour
 -   1 × they can survive a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute)
 -   1 × three times a day
+-   1 × three times before a short or long rest
 -   1 × three times per day
 -   1 × until you do something that would harm them or harm something they care about
 -   1 × useable once before finishing a long rest
 -   1 × useable twice per day
 -   1 × when targeted by a fiend
 -   1 × while airborne
+-   1 × while playing the drum
 -   1 × while wearing this amulet
+-   1 × who can hear the drum being played
+-   1 × who will defend you for 1 + 2d12 minutes, at which time they disperse into mist
 -   1 × within 60 feet of its activation
 -   1 × within 60 feet of your position and in your line of sight
 -   1 × you can control a total of 22 HD worth of undead creatures at one time
 -   1 × you can hold your breath for up to one hour
+-   1 × you can use the following abilities once a day
+-   1 × you suffer 33 (6d10) necrotic damage that can only be healed with rest
 
 ## charges_text (presence) (2 distinct)
 
--  74 × (empty / not stated)
--   6 × present
+-  72 × (empty / not stated)
+-   8 × present
 
 ## cursed_text (presence) (2 distinct)
 
--  79 × (empty / not stated)
--   1 × present
+-  75 × (empty / not stated)
+-   5 × present
 
 ## variant_table_text (presence) (2 distinct)
 
--  77 × (empty / not stated)
--   3 × present
+-  76 × (empty / not stated)
+-   4 × present
 
-## oddities (74 distinct)
+## oddities (99 distinct)
 
 -  31 × (empty / not stated)
 -   2 × "you AC" instead of "your AC" in the text
@@ -454,12 +509,18 @@
 -   1 × "useable" spelling retained verbatim
 -   1 × 'A war like species' written as two words
 -   1 × A full-page illustration of the amulet occupies the top of the page above the item entry
+-   1 × Artifact with an explicit destruction method: "The only way to destroy the ring of elven lords is to take the ring to the Abyss and have it worn by the demon goddess Lloth."
+-   1 × Beam is an instant-kill on a failed DC 18 Constitution save with no damage fallback on success stated
 -   1 × Body is a single sentence with no description of the caltrops themselves
 -   1 × Body text on this page is entirely lore/history; no mechanical rules text appears before the page break
 -   1 × Body text uses plural phrasing ("Armors enchanted this way") describing an enchantment rather than a single item
 -   1 × Bullet list indentation is irregular, wrapping around an illustration
 -   1 × Category misspelled as "Wonderous item"
+-   1 × Curse cure duration scales with wear time: ring must be kept off "for a period of time equal to the amount of time it was worn"
 -   1 × Curse designation "(Cursed)" appears in the title itself rather than as a sub-heading
+-   1 × Dedicated 'Destroying the Armor.' section: 'The armor can only be destroyed by returning it to its planet of origin and bathing it in alchemical solutions that include copious amounts of a substance known as mana crystal.'
+-   1 × Destruction clause is itself a mechanic: "The drum can only be destroyed by piercing the drumhead with a weapon that is wielded by one of the elven gods. Once this happens, a magical backlash of energy erupts from the drum, causing 10d20 force damage to anything within 50 feet of the instrument."
+-   1 × Destruction method requires attuning and using the encasement ability on yourself, instantly killing you
 -   1 × Effect list is a bulleted list with bold-italic moon-phase sub-headings, not a table
 -   1 × Embedded saving-throw-modifier table varying by devil rank (Lemure/Lesser Devils/Greater Devils/Archdevils), with Archdevils listed as Immune
 -   1 × Embedded saving-throw-modifier table varying by dragon age category (Wyrmling/Young/Adult/Ancient), rendered as bold-label lines rather than a ruled table
@@ -471,31 +532,50 @@
 -   1 × Grammatical error in source retained verbatim: "or is the creature is the recipient of healing magic"
 -   1 × Grammatical error preserved: "Vampires receives a -2"
 -   1 × Grammatical error preserved: "by using an bonus action"
+-   1 × Grammatical/spelling errors preserved from source: "10 hit point every turn", "could of picked the ring up", "she lead the elven armies"
+-   1 × If the amulet is ever destroyed, any amber statue it ever created instantly shatters
 -   1 × Large full-width illustration of the ring occupies the top half of the page above the item title.
 -   1 × Light radius given as "40 foot radius" rather than the conventional "40-foot radius"
+-   1 × Long lore section is a thinly veiled Iron Man homage ('Tony', 'Verr Jarn, or 'Man of Iron'', son 'Steven') preceding the mechanics.
+-   1 × Mechanics assume the optional flanking rule ("unable to be flanked")
+-   1 × Most effects target allies who can hear the drum rather than the attuned wielder
+-   1 × Multiple pages of lore precede any mechanics; mechanics appear only in the final named sections
 -   1 × Odd phrasing in source retained verbatim: "seems to slightly bend the light surround it"
 -   1 × Odd phrasing in source retained verbatim: "your form is wavered"
 -   1 × Odd phrasing: "Following the uttering its activation word"
 -   1 × Odd phrasing: "Wisdom (Perception) checks made to see you have disadvantage" (apparent missing word, transcribed verbatim)
+-   1 × Once-a-day abilities let the wearer retroactively 'choose to hit' a missed attack and 'choose to succeed' a failed saving throw or ability check.
 -   1 × Page body on this page is entirely lore/backstory prose; no mechanical rules text appears before the page break
 -   1 × Page contains only origin/lore prose for this item; no mechanical effect text appears before the page break, so effect_kinds_raw is empty.
 -   1 × Page is mostly full-page artwork with only one short item
+-   1 × Produced coins "radiate strong conjuration and illusion magic if inspected by spells that would detect such things", a built-in detection weakness rather than a bonus
 -   1 × Rarity is given as "varies" but no variant list or table appears on this page
 -   1 × Rarity slot of the type line reads "artifact" rather than a standard rarity word
+-   1 × References an external book table: indefinite madness "as described in the Dungeon Master's Guide" (chosen at random)
+-   1 × Roughly three-quarters of the body is lore/history before any mechanics appear
+-   1 × Roughly two-thirds of the entry is multi-page lore/history before any mechanics appear
 -   1 × Semicolon used oddly in 'before the rise of elf, dwarf, or man; a race of saurian people'
 -   1 × Six bulleted button entries (Button One through Button Six) act as bold sub-headings listing selectable effects; each lasts 1 minute
+-   1 × Sizing note: 'it will fit anyone of Medium size.'
 -   1 × Source writes "the greater it's chance" (it's for its), kept verbatim
+-   1 × Spelling error in mechanics text: "You are also not effected by difficult terrain"
 -   1 × Spelling error preserved: "deceases villagers"
+-   1 × Spells are cast 'as if using a 5th level spell slot'.
 -   1 × Subtype "Dagger" is capitalized unlike the lowercase convention
 -   1 × Subtype "Greatsword" is capitalized unlike the lowercase convention
 -   1 × Subtype capitalized as "War Pick" in the type line
 -   1 × Text opens with "In addition to the properties listed below" but the abilities are listed below, not properties
 -   1 × Text says "Once again, you provoke no opportunity attack by moving this way" though the first move also did not provoke — phrasing kept verbatim
+-   1 × The 50-coin pool functions like charges but is never called charges, and recharges via long rest rather than dawn
+-   1 × The armor itself is indestructible in normal play: 'The suit itself is impervious to damage and heals any cut, scratch, or ding it suffers within minutes.'
 -   1 × The text spells the condition inconsistently: "petrifaction" in one sentence and "petrifying"/"petrified" elsewhere.
 -   1 × Title is printed in bold title case rather than the small caps used by the other items on this page
 -   1 × Title spelled "Quatermaster's" rather than "Quartermaster's"
+-   1 × Transcription spelling errors preserved from source, e.g. "the deceases villagers" and "a internal war"
+-   1 × Type line rarity is "varies" — actual rarity is determined by the coin type the pouch was keyed to at creation
 -   1 × Typo in source: "the magical energy his held for 1 hour" (his for is)
 -   1 × Typos preserved verbatim: "one on each sides", "empty of full to capacity", "If the bag is overloaded, pierces, or torn", "scattered in Astral Plane", "sent to a random location to the Astral Plane"
+-   1 × Typos/spellings preserved in source: 'fly with of speed of 90 ft', 'River Stix'.
 -   1 × Uses "does not effect worked stone" where "affect" would be standard
 -   1 × Uses "effect the moods" where "affect" would be standard
 -   1 × Uses "effect you" where "affect you" is meant, transcribed verbatim

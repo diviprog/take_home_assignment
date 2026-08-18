@@ -548,16 +548,41 @@
     "attunement_raw": "requires attunement",
     "worn_or_held_raw": "",
     "description": "Ages past, on the world of Shin'ar, during one of that planet's most turbulent times known as a Lunar Quickening, a human found himself stranded in a place where the fantastic seemed ordinary and magic was a more common occurrence than miracle. The man did not know how he came to the world, only that an experiment of his own, on his planet, went somehow awry. A stranger in a foreign land, he was forced to adapt to his new surroundings - thanks to his quick wit and superior intellect, he did just that and soon managed to gain employment in a village nearby.\n\nThe people, who were also human, called themselves Jute and happened to resemble a mix of peoples from his own planet, known not only as great marauders and pillagers, but also as intuitive farmers and learned men. They spoke a version of a few languages he recognized, and this allowed him to blend in as the village's new blacksmith.\nWeeks stretched to months, then years, but the man who went by the name of \"Tony\" never gave up hope of returning to his world. He even learned to harness an extraordinary radiation found in the planet's atmosphere to fuel powerful machinery of his own design. Tony was well-liked by the Jute he lived with and had been accepted as one of their own.\nHe grew to love his adopted people, using his knowledge to protect them from monsters and evil-doers who would see them harm. Tony lived a long life and sired many children before his eventual passing of extreme old age. Many of his mechanical wonders were lost to time, however, his greatest achievement has endured.\nThe suit of plate mail armor was constructed specifically for Tony's height and build, however, it will fit anyone of Medium size. While he wore it defending the village, he was known as Verr Jarn, or 'Man of Iron'. This armor grants extraordinary abilities to anyone who dons it and manages to attune it, including +3 to your AC and increases to both your Strength and Dexterity ability scores by 4.\nIn addition, you gain advantage on any Strength and Dexterity saving throw or ability check. You are able to leap great distances, effectively able to cast the jump spell at will from the armor. Your base walking speed also increases by 30 feet while wearing this armor, and you are immune to fire and cold damage. However, you are vulnerable to electrical damage.\nIn addition, you can use the following abilities once a day:\n• When you miss with a melee weapon attack, you can instead choose to hit.\n• You can fly with of speed of 90 ft. You can sustain this flight for up to 8 rounds.\n• When you fail a saving throw or ability check, you can instead choose to succeed.\nWhile wearing the armor, you gain darkvision and truesight to a range of 60 feet. If you already have darkvision or truesight, its range is amplified by 30 feet.\n\nYou are able to cast the spells color spray and melf's acid arrow three times before a short or long rest while wearing the Exo-Armor. Both spells are cast as if using a 5th level spell slot.\nThe armor seems to never take any visible damage, regardless of the blow sustained while wearing it.\nAll of the suit's functions and abilities, with the exception of its increase in AC and ability scores, only work after the suit is attuned. The suit will only attune with someone of good (LG, NG, CG) alignment.\nDestroying the Armor. Attempts to destroy the armor have been made in the past. After Tony's death, the armor passed to his son, Steven, who went on to earn fame on other worlds as a hero and vanquisher of evil. Steven met his demise in Hades, where the armor was deemed too dangerous to exist and was tossed in the River Stix. The armor, however, remained. It floated down the river and eventually ended up in the hands of a powerful archon who bequeathed it to another hero. Down the line of great heroes it traveled, and many came to know the Man of Iron. The suit itself is impervious to damage and heals any cut, scratch, or ding it suffers within minutes. It has resisted acid, flame, and extreme cold.\nThe armor can only be destroyed by returning it to its planet of origin and bathing it in alchemical solutions that include copious amounts of a substance known as mana crystal. The formula was written by Tony and recorded in two places: his workbook, which has since been lost to time, and a letter to his son, Steven, which he wrote on his death bed. The letter is rumored to be among Steven's effects, left in his father's tower, which has remained magically sealed and warded for centuries with no apparent entry.",
-    "effect_kinds_raw": [],
+    "effect_kinds_raw": [
+      "AC and ability score bonuses",
+      "advantage on Strength/Dexterity saves and checks",
+      "movement enhancement (jump at will, +30 ft speed, limited flight)",
+      "damage immunity (fire and cold)",
+      "enhanced senses (darkvision and truesight)",
+      "auto-hit / auto-succeed and innate spellcasting"
+    ],
     "creatures_mentioned": [],
     "environments_mentioned": [],
-    "spells_mentioned": [],
-    "limitations_raw": [],
+    "spells_mentioned": [
+      "jump",
+      "color spray",
+      "melf's acid arrow"
+    ],
+    "limitations_raw": [
+      "requires attunement",
+      "you can use the following abilities once a day",
+      "You can sustain this flight for up to 8 rounds.",
+      "three times before a short or long rest",
+      "All of the suit's functions and abilities, with the exception of its increase in AC and ability scores, only work after the suit is attuned.",
+      "The suit will only attune with someone of good (LG, NG, CG) alignment."
+    ],
     "charges_text": "",
-    "cursed_text": "",
+    "cursed_text": "However, you are vulnerable to electrical damage.",
     "variant_table_text": "",
     "oddities": [
-      "only flavor/backstory text appears on this page; no mechanical effects are given before the page break"
+      "only flavor/backstory text appears on this page; no mechanical effects are given before the page break",
+      "Long lore section is a thinly veiled Iron Man homage ('Tony', 'Verr Jarn, or 'Man of Iron'', son 'Steven') preceding the mechanics.",
+      "Dedicated 'Destroying the Armor.' section: 'The armor can only be destroyed by returning it to its planet of origin and bathing it in alchemical solutions that include copious amounts of a substance known as mana crystal.'",
+      "The armor itself is indestructible in normal play: 'The suit itself is impervious to damage and heals any cut, scratch, or ding it suffers within minutes.'",
+      "Once-a-day abilities let the wearer retroactively 'choose to hit' a missed attack and 'choose to succeed' a failed saving throw or ability check.",
+      "Sizing note: 'it will fit anyone of Medium size.'",
+      "Spells are cast 'as if using a 5th level spell slot'.",
+      "Typos/spellings preserved in source: 'fly with of speed of 90 ft', 'River Stix'."
     ],
     "pdf_page_start": 7,
     "pdf_page_end": 9
@@ -1440,19 +1465,50 @@
     "attunement_raw": "requires attunement by an elf",
     "worn_or_held_raw": "wear the ring",
     "description": "Crafted eons ago by a cabal of elven spellcasters, the Ring of Elven Lords has adorned the hands of numerous elven kings, queens, and statesmen. At the time of its creation, the elven lands of Syriddria were being threatened by orc hordes of immense size. The dark forces boiled out of their mountain holes and into the lowlands, forests, and glades of the elven people.\nThe valiant efforts of the elven defenders kept the majority of the descending horde away from their population centers, however, countless elven villages and outposts were utterly destroyed by the orcs. The turmoil caused by the attacks began to split the elven ruling council made up of the high elves, wood elves, and gray elves of the region. With dark forces at their doorsteps, civil war began to loom over the utopian society.\nA group of learned sages, sorcerers, and wizards banded together to create an item that would unite the races again. The ring is fashioned from gold and adorned with a single square cut sapphire. Runes of power were etched both inside and on the band. Weeks would pass as the cabal poured their energy and expertise into crafting the ring. When it was done, they forced the fractured council to meet and choose one among them to wear the ring.\n\nAfter much deliberation, the wood elf bowman known as Oakleaf was chosen. It would be known hence forth, that in times of great turmoil and danger to the elven people, a single champion will arise to unite them and bring them into prosperity. Oakleaf donned the ring and took her position as Colonel of Syriddria. She took control of the elvish forces which had previously been in the hands of feuding commanders who worried more about securing their own territories instead of repelling the invaders from the land.\nUsing the powers of the ring, she lead the elven armies into battle against the dark hordes. Victories came swiftly once the elven people were united, and the orcs broke ranks time and time again in the face of elven superiority. Oakleaf survived the war, and keeping a promise she made when she was chosen, she relinquished the ring back to the safe-keeping of the council. It rested in a secure vault for nearly four centuries before it was given to a new champion, Ales'an Iellionnaeh, also known as the Golden Lion. This time, the elven lands were being overrun not by orc hordes, but by legions of drow and their demonic allies.\nThe powers of the ring kept Colonel Ales'an alive, however, dark magic cast against him during a climactic battle did something to his mind, warping his perception of who was really friend and who was a foe. After the war, an increasingly paranoid Ales'an began to recruit powerful elven lords who swore allegiance to him, rather than to the realm. In a bid for power, Ales'an started a coup against the ruling council, killing some and jailing the rest. He crowned himself the first king of Syriddria and refused to give up possession of the ring. Instead, the ring became the symbol of the new royalty, and was subsequently passed down to eleven of Ales'an's descendents, each a king or queen or other important person in Syriddria.\nEventually, like all things, the reign of the elven lords came to an end when the kingdom of Syriddria was destroyed by a cataclysmic magical explosion that was felt and heard across the planet. Lofty cities of crystal and gold were shattered and tossed down by the blast. Forests and mountains were leveled. Lakes were evaporated and grasslands were set alight. After it was done, only craters and burned patches of ground were left of the once powerful elven kingdom.\nThe ring, however, endured. Buried under tons of rock and debris, the ring waited for eight centuries before being uncovered by a group of human scavengers who came upon the blasted land. The power of the ring was unknown to them, but because of its beautiful construction, it sold for hundreds of gold pieces to an antique dealer in the city of Rhodde. Here, it rested in his personal collection until his death. The ring was passed on to his half-elven cousin who recognized it from stories he read as a child. He kept the ring safe for another eighty years. As he lay dying, he gave the ring to his father, an elven renegade and thief, hoping he would change his ways once he was in possession of the artifact that was closely linked to his heritage.\n\nUnfortunately, there was no rehabilitating his father, and he lost the ring while plundering a tomb of an ancient wizard. News of the whereabouts of the ring disappear after that. It is known that the wizard's tomb was plundered at least four times after that, and any of the tomb robbers could of picked the ring up and taken it with them. Divinations made to locate the ring only confirm it has not been taken to another plane of existence, however, they have yet to uncover its current location.\nImmunities. While attuned to the ring, you are immune to the following conditions: charmed, blinded, deafened, stunned, paralyzed, and petrified.\nResistances. The ring grants you resistance to magical and non-magical weapon damage.\nHeightened Senses. The ring grants you advantage on any Wisdom (Perception) checks that rely on sight, smell, or hearing. You are also unable to be flanked or surprised.\nRegeneration. You regenerate 10 hit point every turn if you start your turn with at least 1 hit point. You can regrow lost limbs and appendages in 24 hours.\nIncreased Ability Scores. Your Intelligence, Wisdom, and Charisma ability scores all increase by 3 points. In addition, elves regard you as friendly upon first meeting, and will regard you as such until you deal physical harm to them or someone they care about.\nSpellcasting. While attuned to the ring, you may use your action to cast one of the following spells: hallucinatory terrain, stone shape, creation, passwall, or telekinesis. Spells cast from the ring are cast using a spell slot that corresponds with the spell's level.\nSummon Warriors. You are able to use your action to conjure 10 elven warriors (stats as a knight) who will defend you for 1 + 2d12 minutes, at which time they disperse into mist. You may not use this feature again until 24 hours have passed since its last use.\nVulnerability. While attuned to the ring, the mental strain put upon you makes you vulnerable to psychic damage. In addition, if you are attuned to the ring for more than eleven weeks, you gain a form of indefinite madness (chosen at random) as described in the Dungeon Master's Guide. The madness can only be cured once the ring is taken off and kept off for a period of time equal to the amount of time it was worn.\nDestroying the Ring. The only way to destroy the ring of elven lords is to take the ring to the Abyss and have it worn by the demon goddess Lloth. This will break the link the ring has to the elven people and drain it of all of its magic.",
-    "effect_kinds_raw": [],
-    "creatures_mentioned": [
-      "elf"
+    "effect_kinds_raw": [
+      "immunity to multiple conditions",
+      "resistance to weapon damage",
+      "heightened senses (perception advantage, cannot be flanked or surprised)",
+      "regeneration and limb regrowth",
+      "ability score increases plus automatic elf friendliness",
+      "spellcasting and summoning warriors"
     ],
-    "environments_mentioned": [],
-    "spells_mentioned": [],
-    "limitations_raw": [],
+    "creatures_mentioned": [
+      "elves",
+      "elven warriors",
+      "knight",
+      "demon goddess Lloth"
+    ],
+    "environments_mentioned": [
+      "the Abyss"
+    ],
+    "spells_mentioned": [
+      "hallucinatory terrain",
+      "stone shape",
+      "creation",
+      "passwall",
+      "telekinesis"
+    ],
+    "limitations_raw": [
+      "requires attunement by an elf",
+      "Spells cast from the ring are cast using a spell slot that corresponds with the spell's level.",
+      "who will defend you for 1 + 2d12 minutes, at which time they disperse into mist",
+      "You may not use this feature again until 24 hours have passed since its last use.",
+      "if you start your turn with at least 1 hit point",
+      "You can regrow lost limbs and appendages in 24 hours."
+    ],
     "charges_text": "",
-    "cursed_text": "",
+    "cursed_text": "Vulnerability. While attuned to the ring, the mental strain put upon you makes you vulnerable to psychic damage. In addition, if you are attuned to the ring for more than eleven weeks, you gain a form of indefinite madness (chosen at random) as described in the Dungeon Master's Guide. The madness can only be cured once the ring is taken off and kept off for a period of time equal to the amount of time it was worn.",
     "variant_table_text": "",
     "oddities": [
       "Page contains only origin/lore prose for this item; no mechanical effect text appears before the page break, so effect_kinds_raw is empty.",
-      "Large full-width illustration of the ring occupies the top half of the page above the item title."
+      "Large full-width illustration of the ring occupies the top half of the page above the item title.",
+      "Artifact with an explicit destruction method: \"The only way to destroy the ring of elven lords is to take the ring to the Abyss and have it worn by the demon goddess Lloth.\"",
+      "Roughly two-thirds of the entry is multi-page lore/history before any mechanics appear",
+      "Grammatical/spelling errors preserved from source: \"10 hit point every turn\", \"could of picked the ring up\", \"she lead the elven armies\"",
+      "References an external book table: indefinite madness \"as described in the Dungeon Master's Guide\" (chosen at random)",
+      "Mechanics assume the optional flanking rule (\"unable to be flanked\")",
+      "Curse cure duration scales with wear time: ring must be kept off \"for a period of time equal to the amount of time it was worn\""
     ],
     "pdf_page_start": 22,
     "pdf_page_end": 24
@@ -1820,20 +1876,41 @@
     "worn_or_held_raw": "",
     "description": "Centuries ago, a great orc horde of immense size boiled out of their mountain holes and began to decimate everything in its path. The first to fall were small mining towns and villages located at the base of the mountains. Those communities fell within hours, and the victories had by the invaders bolstered their frenzy. Using the flayed skin of the deceases villagers, a group of orc priests crafted the war drum and consecrated it to their dark gods.\nWhen the horde marched again, this time against an elven outpost, the war drum could be heard from miles away. The beat of the drum was timed perfectly with the march of the horde, a cacophony of noise that grew louder as they neared. The head chief's son was chosen to wield the drum, and his performance during the battle would empower the orcs to new heights of bloodlust and battle prowess.\nEventually, like most hordes, infighting between clans began to tear at the fragile alliance. In an attempt to steal the drum away from the chief's son, one clan went as far as to enter into a pact with a group of drow renegades that came to the surface to watch the horde destroy their hated kin.\nThe drow slew the chief's son and made off with the drum. They presented it to chief of the clan that allied with them, setting off a internal war between the clans.\n\nWhile the orcs were occupied with themselves, a force of elves and their allies managed to break their ranks. Slaughter on a scale never seen before marked the battlefield. Tens of thousands of dead bodies were left to rot while the surviving clans retreated back to their dark, mountain holes.\nThe drum was lost in the battle, though initial reports state it was seen once again in the possession of the drow. Those reports would later be proven true when decades later, a force of drow marched on the same elven outpost. Bolstered by the beat of the war drum, the drow easily overtook the elven defenders. The small dark elf army moved on, marching to the drum, and sacked six more elven communities before finally being beaten back. The elves confiscated the drum and locked it away in a secure vault.\nThree centuries later, an expert thief would infiltrate the elven vault and pick it clean. The thief, known only as the Shadowmaster, would go on to trade the drum to a polymorphed dragon who would in turn use it as a bargaining chip in its negotiations with the orcs of the mountains. Reunited with the artifact of their people, the orcs agreed to serve the dragon as it made a bid for dominance in the region. Once again, thousands of orcs would rally to the beat of the drum and march on their neighbors. This time, the goodly races were ready for them, and the horde was met by a sizable force of elven and human defenders. The battle would be known as the War of Stomping Boots, after the noise the horde made as it marched to the perfectly timed beats of the drum.\nAfter the battle, the drum was lost, possibly taken by looters or by retreating orc forces. Divinations made to locate the drum have proved inconclusive, possibly due to some type of magical interference surrounding the artifact.\nImmunities. While attuned to the drum, you are considered immune to sonic based magical spells, such as shatter. You are also immune to any spell or magical effect that would attempt to charm you via spoken words. Any friendly creature who can hear the drum being played is considered immune to the frightened condition and they gain advantage against being charmed.\nIncreased Proficiency. The drum grants you a +3 bonus to Charisma (Performance) checks while playing the drum.\nIncreased Movement. Friendly creatures who can hear the drum being played have their base movement speed increased by 60 feet. In addition, they gain advantage against saving throws to resist exhaustion brought on by a forced march and disregard any penalties from moving in difficult terrain.\nRegeneration. Friendly creatures who can hear the drum being played regenerate 2 hit points per turn if they start their turn with at least 1 hit point.\nIncreased Weapon Damage. Friendly creatures who can hear the drum being played gain a +2 bonus to their attack and damage rolls.\n\nIncreased Appetite. While attuned to the drum, you must eat and drink six times the normal amount each day.\nEnergy Leech. When you become attuned to the drum, one of your ability scores is reduced by 2 points (chosen at random). The loss is permanent while you are attuned to the drum.\nDestroying the Drum. The drum can only be destroyed by piercing the drumhead with a weapon that is wielded by one of the elven gods. Once this happens, a magical backlash of energy erupts from the drum, causing 10d20 force damage to anything within 50 feet of the instrument.",
     "effect_kinds_raw": [
-      "combat buff to allies (implied by lore; no mechanics on this page)"
+      "immunity to sonic and charm magic",
+      "fear/charm protection for allies",
+      "skill check bonus",
+      "movement speed increase",
+      "regeneration for allies",
+      "attack and damage bonus"
     ],
-    "creatures_mentioned": [],
-    "environments_mentioned": [],
-    "spells_mentioned": [],
-    "limitations_raw": [],
+    "creatures_mentioned": [
+      "elven gods"
+    ],
+    "environments_mentioned": [
+      "difficult terrain"
+    ],
+    "spells_mentioned": [
+      "shatter"
+    ],
+    "limitations_raw": [
+      "requires attunement",
+      "While attuned to the drum",
+      "while playing the drum",
+      "who can hear the drum being played",
+      "if they start their turn with at least 1 hit point"
+    ],
     "charges_text": "",
-    "cursed_text": "",
+    "cursed_text": "Increased Appetite. While attuned to the drum, you must eat and drink six times the normal amount each day.\nEnergy Leech. When you become attuned to the drum, one of your ability scores is reduced by 2 points (chosen at random). The loss is permanent while you are attuned to the drum.",
     "variant_table_text": "",
     "oddities": [
       "Body text on this page is entirely lore/history; no mechanical rules text appears before the page break",
       "Spelling error preserved: \"deceases villagers\"",
       "Grammar oddities preserved: \"presented it to chief of the clan\" and \"a internal war\"",
-      "Rarity slot of the type line reads \"artifact\" rather than a standard rarity word"
+      "Rarity slot of the type line reads \"artifact\" rather than a standard rarity word",
+      "Destruction clause is itself a mechanic: \"The drum can only be destroyed by piercing the drumhead with a weapon that is wielded by one of the elven gods. Once this happens, a magical backlash of energy erupts from the drum, causing 10d20 force damage to anything within 50 feet of the instrument.\"",
+      "Most effects target allies who can hear the drum rather than the attuned wielder",
+      "Multiple pages of lore precede any mechanics; mechanics appear only in the final named sections",
+      "Transcription spelling errors preserved from source, e.g. \"the deceases villagers\" and \"a internal war\""
     ],
     "pdf_page_start": 29,
     "pdf_page_end": 31
@@ -2095,20 +2172,26 @@
     "worn_or_held_raw": "",
     "description": "These pouches are typically made from animal hide and are enchanted to bring forth exact replicas of whichever type of coin the pouch was keyed to at its creation. The coins it produces are indistinguishable from a normal coin; however, they radiate strong conjuration and illusion magic if inspected by spells that would detect such things. The pouch can be made to bring forth a total of 50 coins before it becomes dormant. A long rest is needed before the pouch can be made to produce coins again.\n\nType of Coin: CP, Rarity: Uncommon\nType of Coin: SP, Rarity: Rare\nType of Coin: GP, Rarity: Very Rare\nType of Coin: PP, Rarity: Legendary\nCoins produced by the pouch remain for 7 days, at which time they wink out of existence.",
     "effect_kinds_raw": [
-      "conjures replica coins"
+      "conjures replica coins",
+      "temporary illusory currency that vanishes",
+      "detectable magical aura on produced coins"
     ],
     "creatures_mentioned": [],
     "environments_mentioned": [],
     "spells_mentioned": [],
     "limitations_raw": [
-      "a total of 50 coins before it becomes dormant",
-      "A long rest is needed before the pouch can be made to produce coins again."
+      "The pouch can be made to bring forth a total of 50 coins before it becomes dormant.",
+      "A long rest is needed before the pouch can be made to produce coins again.",
+      "Coins produced by the pouch remain for 7 days, at which time they wink out of existence."
     ],
-    "charges_text": "",
+    "charges_text": "The pouch can be made to bring forth a total of 50 coins before it becomes dormant. A long rest is needed before the pouch can be made to produce coins again.",
     "cursed_text": "",
-    "variant_table_text": "",
+    "variant_table_text": "Variants vary over the type of coin the pouch is keyed to (and its rarity): \"Type of Coin: CP, Rarity: Uncommon / Type of Coin: SP, Rarity: Rare / Type of Coin: GP, Rarity: Very Rare / Type of Coin: PP, Rarity: Legendary\"",
     "oddities": [
-      "Rarity is given as \"varies\" but no variant list or table appears on this page"
+      "Rarity is given as \"varies\" but no variant list or table appears on this page",
+      "Type line rarity is \"varies\" — actual rarity is determined by the coin type the pouch was keyed to at creation",
+      "Produced coins \"radiate strong conjuration and illusion magic if inspected by spells that would detect such things\", a built-in detection weakness rather than a bonus",
+      "The 50-coin pool functions like charges but is never called charges, and recharges via long rest rather than dawn"
     ],
     "pdf_page_start": 34,
     "pdf_page_end": 35
@@ -2331,20 +2414,35 @@
     "worn_or_held_raw": "",
     "description": "Long ago, before the rise of elf, dwarf, or man; a race of saurian people lived and thrived on the planet. The Syslander, as they called themselves, lived in small villages and townships. A war like species, the Syslander attacked any being that was not of their lands. They defended their territory with brutal efficiency. The most powerful of them were the priests and priestesses of their creator god, Ugvog the Mighty.\nUgvog taught dominance through displays of power. To this end, he taught his clergy a way to preserve the bodies of their foes in an unbreakable amber-like substance. Statues of great beasts, monsters, demons, and fiends soon dominated the Syslander's lands. Silent warnings to those who dare cross over into their boundaries.\nThe spell, which has since been lost to time, was reputed to take a large toll from its caster. Some myths say the spellcaster would trade their own vitality to fuel the spell, reducing them to withered beings. Other tales go on to say the price paid was the life of the spellcaster. To get around the potential deadly side-effect of casting the spell, a group of priests constructed an amulet that would duplicate the magic, at little personal cost to the caster.\n\nPossession of the amulet was given to the most powerful of them, a priestess who was known as Sylan'driddia, roughly translated to Her Most Disagreeableness in Common. With the power of the amulet, she united a number of clans under her leadership and used the amulet to destroy the clans that refused to bow down. Centuries would pass and the power of the amulet would keep Sylan'driddia alive beyond the time one of her species would normally live. Eventually she would be killed by the fiery breath of the ancient red dragon called Ranlammoth the Red Death when he marched his legions of hobgoblin soldiers against the Syslander people. The amulet was tossed in with the rest of the looted riches and Ranlammoth kept the item for another six centuries until his death at the hands of a group of elven paladins who came upon his lair.\nFrom here, the amulet is lost to time for a long while, resurfacing again almost a thousand years later in the hands of a cruel sorcerer near the human city of Brevern. The sorcerer used the powers of the amulet to dominate the city, turning his rivals into amber statues and decorating his palace with them. His death came eighty years later at the hands of Rolondo the Great, a warrior of great renown and prowess.\nThe amulet was lost after that. Some say Rolondo tossed it into the ocean. Others say he traded it to a powerful Tiefling wizard for great riches. Stories of amber statues dotting the landscape crop up from time to time, however, the whereabouts of the amulet are unknown at this time.\nImmunities. While attuned to the amulet, you are immune to the following conditions: charmed, blinded, deafened, stunned, paralyzed, poisoned, frightened.\nImmortal. For as long as you are attuned to the amulet, you do not age. Should the amulet ever be removed from your person, your true age catches up with you, possibly leading to immediate death. You are still able to be killed through violence or other ways that would destroy your body or do great bodily harm.\nFreedom of Movement. The amulet makes you immune to any spell or effect that would restrict your movement. You are also not effected by difficult terrain.\nEncasement. The amulet can be made to shoot a beam of amber light at a creature within 60 feet of you, forcing the creature to make a DC 18 Constitution saving throw. On a failed save, they are fully encased in amber and killed instantly. The amulet can be made to shoot up to eight beams before this power goes dormant for a period of 24 hours.\nNecrotic Damage. Every time the encasement power is used, you suffer 33 (6d10) necrotic damage that can only be healed with rest. This effect is so powerful, it bypasses resistance and immunity to necrotic damage.\nDestroying the Amulet. The only way to destroy the amulet is to attune yourself to it then use its encasement ability on yourself, instantly killing you and destroying the magic of the amulet. If the amulet is ever destroyed, any amber statue it ever created instantly shatters.",
     "effect_kinds_raw": [
-      "encases creatures in unbreakable amber-like substance"
+      "condition immunities",
+      "no aging while attuned",
+      "immunity to movement restriction",
+      "save-or-die encasement beam",
+      "self-inflicted necrotic damage on use"
     ],
     "creatures_mentioned": [],
-    "environments_mentioned": [],
+    "environments_mentioned": [
+      "difficult terrain"
+    ],
     "spells_mentioned": [],
-    "limitations_raw": [],
-    "charges_text": "",
-    "cursed_text": "",
+    "limitations_raw": [
+      "requires attunement by a cleric, sorcerer, warlock, or wizard",
+      "The amulet can be made to shoot up to eight beams before this power goes dormant for a period of 24 hours",
+      "you suffer 33 (6d10) necrotic damage that can only be healed with rest"
+    ],
+    "charges_text": "The amulet can be made to shoot up to eight beams before this power goes dormant for a period of 24 hours.",
+    "cursed_text": "Every time the encasement power is used, you suffer 33 (6d10) necrotic damage that can only be healed with rest. This effect is so powerful, it bypasses resistance and immunity to necrotic damage. Should the amulet ever be removed from your person, your true age catches up with you, possibly leading to immediate death.",
     "variant_table_text": "",
     "oddities": [
       "Page body on this page is entirely lore/backstory prose; no mechanical rules text appears before the page break",
       "A full-page illustration of the amulet occupies the top of the page above the item entry",
       "Semicolon used oddly in 'before the rise of elf, dwarf, or man; a race of saurian people'",
-      "'A war like species' written as two words"
+      "'A war like species' written as two words",
+      "Roughly three-quarters of the body is lore/history before any mechanics appear",
+      "Destruction method requires attuning and using the encasement ability on yourself, instantly killing you",
+      "If the amulet is ever destroyed, any amber statue it ever created instantly shatters",
+      "Spelling error in mechanics text: \"You are also not effected by difficult terrain\"",
+      "Beam is an instant-kill on a failed DC 18 Constitution save with no damage fallback on success stated"
     ],
     "pdf_page_start": 38,
     "pdf_page_end": 39

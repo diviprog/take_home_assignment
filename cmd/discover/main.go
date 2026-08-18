@@ -118,6 +118,34 @@ func main() {
 		items = []discovery.StitchedItem{} // marshal as [], not null
 	}
 
+	// Deep-label pass: items whose prose crossed a page break were labeled
+	// only from their opening page (all four artifacts open with pure lore),
+	// so their label fields miss every mechanic on later pages. Re-derive the
+	// labels from each such item's complete stitched text. Cached like the
+	// page pass; single-page items are untouched.
+	rl, err := discovery.NewRelabeler(filepath.Join("cache", "relabel"), *backend)
+	if err != nil {
+		fatal("relabeler: %v", err)
+	}
+	for i := range items {
+		if !discovery.NeedsRelabel(items[i]) {
+			continue
+		}
+		labels, cached, err := rl.Relabel(ctx, items[i], *refresh)
+		if err != nil {
+			failed = append(failed, err.Error())
+			fmt.Printf("  relabel %-28s FAILED: %v\n", items[i].Name, err)
+			continue
+		}
+		src := "live"
+		if cached {
+			src = "cache"
+		}
+		labels.Merge(&items[i])
+		fmt.Printf("  relabel %-28s ok (%5s): %d effects, %d limits\n",
+			items[i].Name, src, len(items[i].EffectKindsRaw), len(items[i].LimitationsRaw))
+	}
+
 	outDir := filepath.Join("notes", "discovery")
 	if err := os.MkdirAll(outDir, 0o755); err != nil {
 		fatal("mkdir %s: %v", outDir, err)
