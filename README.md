@@ -1,67 +1,87 @@
-<p align="center">
-  <img src="chest.png" alt="" width="160">
-</p>
+# Reznar's Arcane Oddities
 
-<h1 align="center">Reznar's Arcane Oddities</h1>
+This submission models the 80 magic items in `data/items_combined.pdf` as a
+typed PostgreSQL ontology and provides an AI-driven Go pipeline that extracts,
+normalizes, validates, and inserts the catalog.
 
-> See `SETUP.md` to get the local Postgres running before you start.
+## Results
 
-**Fork the repo and make incremental pushes. We will follow your commits.**
+- 80 of 80 items inserted; zero quarantined.
+- 36 wondrous items, 21 weapons, 14 armor, 5 rings, and 4 potions.
+- 220 effect tags, 146 limitation clauses, 42 creature targets, 26 variants,
+  19 restricted-attunement links, and 31 spell links.
+- `go test ./...` and `go vet ./...` pass.
 
-Mulholland Technologies has taken on Reznar's Arcane Oddities, a fantasy magic item shop, as a client. Your job is to help Reznar organize their products so that it is easy to add new items for sale and to find patterns across the catalog.
+The complete reconciliation output is committed at
+`notes/extraction/report.md`.
 
----
+## Run it
 
-## What Reznar can tell you about magic items
+Prerequisites: Go 1.26.2+, Docker, Poppler (`pdftoppm`), and either the Claude CLI
+with an active login or an Anthropic API key. `sqlc` is needed only after
+changing the schema; generated Go is committed.
 
-"Magic items are strange and mystical things. They come in several grades of rarity, from *common* all the way up to *artifacts*. The most powerful items have to be attuned to their user, and people can only use so many at a time.
+```bash
+docker compose up -d
+go run ./cmd/verify
+go run ./cmd/extract -backend cli
+```
 
-A lot of magic items are worn. Rings, amulets, cloaks, gloves, boots, hats, armor, and weapons are all commonly enchanted. Unfortunately, names are not always consistent — something worn on the head might be called a hat, a helmet, or a mask. It's important to distinguish where objects are worn, because people can't use more than one object in each slot.
+For API authentication, set `ANTHROPIC_API_KEY` and use `-backend api`.
+Extraction requires an empty database because the declarative schema is
+provisioned as a unit. To rerun locally:
 
-Reznar is also interested in finding patterns in the magic items, so that he can guide his customers to things that match their needs. He's a little vague on what magic can do, since it can do *anything*, but some dimensions that appear important are offensive improvements, defensive improvements, whether the item is targeted to specific creatures and environments, and whether there are limitations on use."
+```bash
+docker compose down -v
+docker compose up -d
+go run ./cmd/extract -backend cli
+```
 
----
+The committed Pass A survey at `notes/discovery/items.json` avoids repeating
+the vision pass. Model responses are otherwise cached locally by their inputs
+and excluded from Git. Use `-refresh` to bypass the normalization cache, or
+remove the survey artifact to exercise the full PDF-to-database path.
 
-## The assignment
+## Design
 
-Your source data is in `data/items_combined.pdf`. It is messy.
+The pipeline deliberately separates observation from normalization:
 
-Design an ontology for Reznar's magic item catalog and populate it from the PDF. There are two deliverables:
+1. `cmd/discover` renders the scanned PDF, extracts one page at a time into an
+   open vocabulary, stitches page continuations, and re-labels multi-page
+   items from their complete text.
+2. `cmd/extract` normalizes each discovered item into the frozen ontology,
+   validates the result in Go, and inserts it through sqlc-generated queries.
+3. PostgreSQL constraints provide the final integrity boundary. Each item is
+   inserted transactionally; failures are quarantined instead of partially
+   loading or being coerced into a nearby value.
 
-### 1. The ontology — `database/schema/*.sql`
+The schema is in `database/schema/`, with one file per object type and typed
+vocabulary in `types.sql`. The observation-to-implementation rationale for
+each modeled dimension is in `notes/decisions.md`.
 
-Model Reznar's catalog as a declarative Postgres schema, the way our production ontology is built:
+## Repository map
 
-- One `.sql` file per object type, each `inherits (object)` (the base class in `foundation.sql`, which gives every entity an `id` and timestamps).
-- `create domain` / `create type ... as enum` for your value vocabulary — a rarity, a wear slot, a gold price — so meaning lives in the type and the database rejects anything malformed.
-- `comment on table` / `comment on column` describing what each entity and field means. Those comments **are** the ontology's self-description; keep them meaningful.
-- Foreign keys for the relationships between entities, so the catalog is traversable.
+```text
+cmd/discover/               open-vocabulary PDF survey
+cmd/extract/                normalization, validation, and database load
+cmd/verify/                 database connectivity check
+database/schema/            declarative PostgreSQL ontology
+database/query/             sqlc queries
+database/generated/         committed generated Go
+internal/discovery/         vision extraction, stitching, and survey logic
+internal/extraction/        normalization, validation, and insertion logic
+notes/discovery/items.json  committed 80-item Pass A result
+notes/discovery/tally.md     observations used to choose the vocabulary
+notes/extraction/report.md  final reconciliation and coverage report
+```
 
-`sqlc` reads these same files to generate typed Go into `database/generated/` — run `sqlc generate` from `database/` after each schema change. See **`stormland/`** for a complete worked example (a commercial-real-estate lease ontology) built exactly this way, end to end.
+## Verification
 
-Document your design choices: what entity types you created, what fields and value types you defined, and why you structured it the way you did.
+```bash
+go test ./...
+go vet ./...
+cd database && sqlc diff
+```
 
-### 2. The extraction pipeline — `cmd/extract`
-
-A Go pipeline that reads the PDF and populates the database against your ontology. The source data is imperfect; your pipeline should handle that gracefully. We are an AI-first company and expect the extraction step to be AI-driven, not hand-written parsing. Normalize each record into the canonical vocabulary your domains demand, then insert it through your generated queries — `stormland/example.go` (`Seed`) shows the shape of that write path.
-
-`cmd/extract` is scaffolded: it provisions your schema and opens the PDF. The extraction itself is yours to build.
-
----
-
-### Note: what even is an ontology?
-
-Ontology is a philosophy term for 'things that exist', and like all philosophy terms there is a lot of *debate* about it. From a software perspective, ontology is the secret sauce that enables Palantir to be Palantir — a set of structured relationships between everything that can be traversed and queried.
-
-- [Palantir docs](https://www.palantir.com/docs/foundry/ontology/overview)
-- [Casey Hart YouTube](https://www.youtube.com/watch?v=UW57RW-4kWs&list=PLIHlyoU28t5_gsMf8EkmnQVSHefbR3xqz)
-
-You can also think of it as a database schema. Formally, an ontology is just a bunch of triples, Subject → Predicate → Object, but in practical terms that is a pain to query. There's a lot of pre-existing practice; you may see acronyms like OWL, BFO, and RDF. At Mulholland we move fast, so our ontology is a declarative Postgres schema with typed Go generated from it — the pattern the `stormland/` example demonstrates.
-
-## How this assignment will be evaluated
-
-1. **Ontology design** — the quality of your schema and how well it captures what Reznar described: sensible entity types, value types that encode meaning, honest relationships. There is no single right answer; we want to see your reasoning.
-
-2. **Pipeline quality** — how well your extraction handles the messiness of the source data and how completely it captures the catalog.
-
-3. **Explanation** — we want to follow your thought process throughout. Make incremental commits and consider maintaining a timestamped `log.md` as you work.
+`sqlc diff` verifies that committed generated code matches the schema and
+queries without rewriting files.

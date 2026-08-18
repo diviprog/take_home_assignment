@@ -1,7 +1,7 @@
 -- The shared primitives every object type builds on: the base `object` class
 -- every entity inherits, and the touch trigger that maintains updated_at.
 -- This file is provided as your starting point — build your ontology on top of
--- it. See ../../stormland for a worked example of the whole pattern.
+-- it.
 
 create function touch() returns trigger language plpgsql as $$
 begin

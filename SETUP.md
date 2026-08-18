@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- Go 1.24+
+- Go 1.26.2+
 - Docker (for the local Postgres)
 - [`sqlc`](https://docs.sqlc.dev/en/latest/overview/install.html) — `brew install sqlc`
 
@@ -28,25 +28,23 @@ go run ./cmd/verify
 
 You should see `postgres is ready`.
 
-## 3. Your work
+## 3. Run the extraction
 
-- **`database/schema/*.sql`** — define your ontology here, on top of the provided
-  `foundation.sql`. List each new file in `database/sqlc.yaml` (in dependency
-  order) and give it a `-- requires:` header so provisioning applies it after its
-  parents.
-- **Generate typed Go** after each schema change, from the `database/` directory:
-  ```bash
-  cd database && sqlc generate
-  ```
-  Output lands in `database/generated/`.
-- **`cmd/extract`** — your extraction pipeline. It already provisions the schema
-  and opens the PDF; you build the extraction and inserts.
-- **`stormland/`** — a complete worked example in a different domain (commercial
-  real-estate leases). Read it as your reference for the whole loop, then delete
-  it if you like. Its live end-to-end test runs against the compose database:
-  ```bash
-  go test ./stormland/
-  ```
+Use the locally authenticated Claude CLI:
+
+```bash
+go run ./cmd/extract -backend cli
+```
+
+Or set `ANTHROPIC_API_KEY` and run with `-backend api`. The committed discovery
+artifact avoids repeating the PDF vision pass; normalization calls are cached
+locally after the first run.
+
+After a schema or query change, regenerate typed Go from `database/`:
+
+```bash
+cd database && sqlc generate
+```
 
 ## Layout
 
@@ -59,8 +57,7 @@ database/
   query/                your named queries for sqlc
   generated/            sqlc output (typed Go)
   sqlc.yaml
-stormland/              worked example: schema -> sqlc -> normalized insert
 cmd/verify              "postgres is ready" check
-cmd/extract             your extraction pipeline (scaffold)
+cmd/extract             extraction pipeline
 data/items_combined.pdf the source catalog
 ```
